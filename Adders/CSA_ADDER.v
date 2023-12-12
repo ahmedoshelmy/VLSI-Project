@@ -12,7 +12,7 @@ module CSA_ADDER(
 
   // Generate carry for each group of 4 bits
   
-  RCA4 rca0 (.sum(sum0[3:0]), .cout(cout0[0]), .a(a[3:0]), .b(b[3:0]), .cin(0));
+  RCA4 rca0 (.sum(sum0[3:0]), .cout(cout0[0]), .a(a[3:0]), .b(b[3:0]), .cin(cin));
   RCA4 rca1 (.sum(sum1[3:0]), .cout(cout1[0]), .a(a[3:0]), .b(b[3:0]), .cin(1));
   genvar i;
   generate
@@ -24,8 +24,8 @@ module CSA_ADDER(
 
   // Generate carry select logic with carry-in
   assign c = cin ? cout1 & ~cout0 : cout0 & ~cout1;
-
   // Select sum output based on carry-in
+  // MUX2 mux (.out(sum[0]), .sel(cin), .in0(sum0[0]), .in1(sum1[0]));
   generate
     for (i=0; i<32; i=i+1) begin : sumsel
       MUX2 mux (.out(sum[i]), .sel(c[i/4]), .in0(sum0[i]), .in1(sum1[i]));
