@@ -1,0 +1,107 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : CSA_ADDER
+Version: U-2022.12-SP7
+Date   : Tue Dec 12 17:41:48 2023
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/user7/Downloads/Lab4/ref/models/saed90nm_typ_ht.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+CSA_ADDER              8000              saed90nm_typ_ht
+RCA4_0                 ForQA             saed90nm_typ_ht
+MUX2_0                 ForQA             saed90nm_typ_ht
+MUX2_1                 ForQA             saed90nm_typ_ht
+MUX2_2                 ForQA             saed90nm_typ_ht
+MUX2_3                 ForQA             saed90nm_typ_ht
+MUX2_4                 ForQA             saed90nm_typ_ht
+MUX2_5                 ForQA             saed90nm_typ_ht
+MUX2_6                 ForQA             saed90nm_typ_ht
+MUX2_7                 ForQA             saed90nm_typ_ht
+MUX2_8                 ForQA             saed90nm_typ_ht
+MUX2_9                 ForQA             saed90nm_typ_ht
+MUX2_10                ForQA             saed90nm_typ_ht
+MUX2_11                ForQA             saed90nm_typ_ht
+MUX2_12                ForQA             saed90nm_typ_ht
+MUX2_13                ForQA             saed90nm_typ_ht
+MUX2_14                ForQA             saed90nm_typ_ht
+MUX2_15                ForQA             saed90nm_typ_ht
+MUX2_16                ForQA             saed90nm_typ_ht
+MUX2_17                ForQA             saed90nm_typ_ht
+MUX2_18                ForQA             saed90nm_typ_ht
+MUX2_19                ForQA             saed90nm_typ_ht
+MUX2_20                ForQA             saed90nm_typ_ht
+MUX2_21                ForQA             saed90nm_typ_ht
+MUX2_22                ForQA             saed90nm_typ_ht
+MUX2_23                ForQA             saed90nm_typ_ht
+MUX2_24                ForQA             saed90nm_typ_ht
+MUX2_25                ForQA             saed90nm_typ_ht
+MUX2_26                ForQA             saed90nm_typ_ht
+MUX2_27                ForQA             saed90nm_typ_ht
+MUX2_28                ForQA             saed90nm_typ_ht
+MUX2_29                ForQA             saed90nm_typ_ht
+MUX2_30                ForQA             saed90nm_typ_ht
+MUX2_31                ForQA             saed90nm_typ_ht
+RCA4_1                 ForQA             saed90nm_typ_ht
+RCA4_2                 ForQA             saed90nm_typ_ht
+RCA4_3                 ForQA             saed90nm_typ_ht
+RCA4_4                 ForQA             saed90nm_typ_ht
+RCA4_5                 ForQA             saed90nm_typ_ht
+RCA4_6                 ForQA             saed90nm_typ_ht
+RCA4_7                 ForQA             saed90nm_typ_ht
+RCA4_8                 ForQA             saed90nm_typ_ht
+RCA4_9                 ForQA             saed90nm_typ_ht
+RCA4_10                ForQA             saed90nm_typ_ht
+RCA4_11                ForQA             saed90nm_typ_ht
+RCA4_12                ForQA             saed90nm_typ_ht
+RCA4_13                ForQA             saed90nm_typ_ht
+RCA4_14                ForQA             saed90nm_typ_ht
+RCA4_15                ForQA             saed90nm_typ_ht
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 898.3533 uW   (88%)
+  Net Switching Power  = 123.0143 uW   (12%)
+                         ---------
+Total Dynamic Power    =   1.0214 mW  (100%)
+
+Cell Leakage Power     =  57.0418 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)  i
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational    898.3534          123.0143        5.7042e+07        1.0784e+03  ( 100.00%)
+--------------------------------------------------------------------------------------------------
+Total            898.3534 uW       123.0143 uW     5.7042e+07 pW     1.0784e+03 uW
+1

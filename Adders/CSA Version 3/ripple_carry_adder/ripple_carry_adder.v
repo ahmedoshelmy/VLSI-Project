@@ -1,0 +1,54 @@
+`include "../primitives/full_adder.v"
+
+module ripple_carry_adder #(
+    parameter DATA_WIDTH = 16,
+    parameter OVERFLOW_LOGIC = 1
+)
+(
+    input [DATA_WIDTH - 1:0] A,
+    input [DATA_WIDTH - 1:0] B,
+    input Cin,
+
+    output [DATA_WIDTH - 1:0] P,
+    output [DATA_WIDTH - 1:0] G,
+    output CF,
+    output [DATA_WIDTH - 1:0] S
+);
+
+    wire [DATA_WIDTH:0] C;
+    assign C[0] = Cin;
+
+    
+    genvar i;
+
+
+    full_adder U0_FA (
+        .A(A[0]),
+        .B(B[0]),
+        .Cin(C[0]),
+
+        .P(P[0]),
+        .G(G[0]),
+        .Cout(C[1]),
+        .S(S[0])
+    );
+
+    generate
+        for (i = 1; i < DATA_WIDTH; i = i + 1) begin
+            full_adder U_FA (
+                .A(A[i]),
+                .B(B[i]),
+                .Cin(C[i]),
+
+                .P(P[i]),
+                .G(G[i]),
+                .Cout(C[i + 1]),
+                .S(S[i])
+            );
+        end
+    endgenerate
+
+
+    assign CF = C[DATA_WIDTH];
+
+endmodule
