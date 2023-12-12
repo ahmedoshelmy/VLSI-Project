@@ -1,5 +1,4 @@
 module CSA_ADDER(
-  input Clk,
   output [31:0] sum,
   output cout,
   input [31:0] a,

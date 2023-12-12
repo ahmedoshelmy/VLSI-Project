@@ -30,7 +30,6 @@ endmodule
 
 
 module CLA_ADDER (
-  input Clk,
   input wire signed [31:0] A,
   input wire signed [31:0] B,
   input wire cin,
