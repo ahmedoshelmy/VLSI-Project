@@ -1,4 +1,5 @@
 module VerilogAdder (
+    input Clk,
     input [31:0] a,
     input [31:0] b,
     input cin,
