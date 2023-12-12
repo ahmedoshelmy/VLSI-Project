@@ -1,4 +1,5 @@
 module CarryBypassAdder #(parameter NUM_BITS = 32, parameter NUM_STAGES = 4)(
+  input Clk,
   input [NUM_BITS-1:0] A,
   input [NUM_BITS-1:0] B,
   input Cin,
