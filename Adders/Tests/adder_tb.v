@@ -5,7 +5,7 @@ module adder_tb;
   wire [31:0] sum;
   wire cout;
 
-  CSA_ADDER dut (
+  CSA_ADDER3 dut (
     .A(a),
     .B(b),
     .Cin(cin),

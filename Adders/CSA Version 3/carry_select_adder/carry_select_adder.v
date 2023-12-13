@@ -1,6 +1,6 @@
 
 
-module CSA_ADDER #(
+module CSA_ADDER3 #(
     parameter DATA_WIDTH = 32,
 
     // The number of adders in one block 
@@ -130,7 +130,7 @@ module MY_MUX #(
 (
     input [DATA_WIDTH - 1:0] IN0,
     input [DATA_WIDTH - 1:0] IN1,
-    input [ $clog2(DATA_WIDTH) - 1 : 0 ] select, // Logarithm of DATA_WIDTH
+    input select, // Logarithm of DATA_WIDTH
 
     output [DATA_WIDTH - 1:0] OUT
 );

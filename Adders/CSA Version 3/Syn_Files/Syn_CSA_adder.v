@@ -1,8 +1,3 @@
-/////////////////////////////////////////////////////////////
-// Created by: Synopsys DC Expert(TM) in wire load mode
-// Version   : U-2022.12-SP7
-// Date      : Tue Dec 12 21:56:59 2023
-/////////////////////////////////////////////////////////////
 
 
 module CSA_ADDER ( sum, cout, a, b, cin );
@@ -175,6 +170,6 @@ module RCA4 ( sum, cout, a, b, cin );
   AO22X1 U11 ( .IN1(a[1]), .IN2(n5), .IN3(b[1]), .IN4(n8), .Q(n4) );
   OR2X1 U12 ( .IN1(n5), .IN2(a[1]), .Q(n8) );
   AO22X1 U13 ( .IN1(b[0]), .IN2(a[0]), .IN3(cin), .IN4(n9), .Q(n5) );
-  OR2X1 U14 ( .IN1(b[0]), .IN2(a[0]), .Q(n9) );
+  OR2X1 U14 ( .IN1(b[0]), .IN2(a[0]), .Q  (n9) );
 endmodule
 
