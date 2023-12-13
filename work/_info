@@ -1086,45 +1086,45 @@ R3
 R4
 n@c@g@l@p@p@s@x8
 vCSA_ADDER
-!s110 1702465529
+Z12 !s110 1702468458
 !i10b 1
-!s100 Kh=K7@j=lnH_?8MH;zDl]0
-IVAT:bD4[m@_N`WXZUV4K43
+!s100 X0E^6c[DSQX_LdNO48B9=0
+Ib070BOjnSmzXE^?Pkh04I0
 R1
 R0
-w1702465423
-Z12 8C:/Users/Dell/Desktop/Ahmed/Projects/University/VLSI-Project/Adders/CSA Version 3/carry_select_adder/carry_select_adder.v
-Z13 FC:/Users/Dell/Desktop/Ahmed/Projects/University/VLSI-Project/Adders/CSA Version 3/carry_select_adder/carry_select_adder.v
+Z13 w1702465776
+Z14 8C:/Users/Dell/Desktop/Ahmed/Projects/University/VLSI-Project/Adders/CSA Version 3/Syn_Files/Syn_CSA_adder.v
+Z15 FC:/Users/Dell/Desktop/Ahmed/Projects/University/VLSI-Project/Adders/CSA Version 3/Syn_Files/Syn_CSA_adder.v
 L0 3
 R2
 r1
 !s85 0
 31
-!s108 1702465529.000000
-Z14 !s107 C:/Users/Dell/Desktop/Ahmed/Projects/University/VLSI-Project/Adders/CSA Version 3/carry_select_adder/carry_select_adder.v|
-Z15 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Dell/Desktop/Ahmed/Projects/University/VLSI-Project/Adders/CSA Version 3/carry_select_adder/carry_select_adder.v|
+Z16 !s108 1702468458.000000
+Z17 !s107 C:/Users/Dell/Desktop/Ahmed/Projects/University/VLSI-Project/Adders/CSA Version 3/Syn_Files/Syn_CSA_adder.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Dell/Desktop/Ahmed/Projects/University/VLSI-Project/Adders/CSA Version 3/Syn_Files/Syn_CSA_adder.v|
 !i113 1
 R3
 R4
 n@c@s@a_@a@d@d@e@r
 vCSA_ADDER3
-Z16 !s110 1702465549
+Z19 !s110 1702468996
 !i10b 1
-!s100 7k?7N24YOX@A>RLQA4FeC1
-ID]GPZ^4no<H_X9gVf98DH0
+!s100 [;7lEmfm3c4@BB6BC`;6Z0
+I0P^M>4G>W5m5DRSVXLmOC2
 R1
 R0
-Z17 w1702465538
-R12
-R13
+Z20 w1702468973
+Z21 8C:/Users/Dell/Desktop/Ahmed/Projects/University/VLSI-Project/Adders/CSA Version 3/carry_select_adder/carry_select_adder.v
+Z22 FC:/Users/Dell/Desktop/Ahmed/Projects/University/VLSI-Project/Adders/CSA Version 3/carry_select_adder/carry_select_adder.v
 L0 3
 R2
 r1
 !s85 0
 31
-Z18 !s108 1702465549.000000
-R14
-R15
+Z23 !s108 1702468996.000000
+Z24 !s107 C:/Users/Dell/Desktop/Ahmed/Projects/University/VLSI-Project/Adders/CSA Version 3/carry_select_adder/carry_select_adder.v|
+Z25 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Dell/Desktop/Ahmed/Projects/University/VLSI-Project/Adders/CSA Version 3/carry_select_adder/carry_select_adder.v|
 !i113 1
 R3
 R4
@@ -1812,23 +1812,23 @@ R3
 R4
 n@f@a@d@d@x2
 vfull_adder
-R16
+!s110 1702468219
 !i10b 1
-!s100 4i`HO^:WzMnPf`b7_P42Q3
-I?;cejd;PUN3N@]Mk3?Z<T3
+!s100 ReO47[iQC^i[NRAB[jD4m3
+IEOM`;4ZgR67I3^>0P=L0i1
 R1
 R0
-R17
-R12
-R13
-L0 157
+w1702468198
+R21
+R22
+L0 177
 R2
 r1
 !s85 0
 31
-R18
-R14
-R15
+!s108 1702468219.000000
+R24
+R25
 !i113 1
 R3
 R4
@@ -1877,23 +1877,23 @@ R3
 R4
 n@h@a@d@d@x2
 vhalf_adder
-R16
+!s110 1702467975
 !i10b 1
 !s100 jAlT;AEo6A0ST>PeaR;df3
 IlkKJ243z1LZ4<SbFM50oL0
 R1
 R0
-R17
-R12
-R13
+w1702467966
+R21
+R22
 L0 142
 R2
 r1
 !s85 0
 31
-R18
-R14
-R15
+!s108 1702467975.000000
+R24
+R25
 !i113 1
 R3
 R4
@@ -3020,23 +3020,23 @@ R3
 R4
 n@m@u@x
 vMUX2
-Z19 !s110 1702418675
+R12
 !i10b 1
-!s100 BPABO3eEUlmmKHF`D7m;^2
-ID_N65zoT=h@k[4?4LL5?m3
+!s100 jb`z6QK;=?kM5BUHd;Pj[2
+I1kGXOVQ_0=>feG4fScDI01
 R1
 R0
-Z20 w1702418672
-Z21 8C:/Users/Dell/Desktop/Ahmed/Projects/University/VLSI-Project/Adders/CSA Version 3/Syn_Files/Syn_CSA_adder.v
-Z22 FC:/Users/Dell/Desktop/Ahmed/Projects/University/VLSI-Project/Adders/CSA Version 3/Syn_Files/Syn_CSA_adder.v
-L0 150
+R13
+R14
+R15
+L0 145
 R2
 r1
 !s85 0
 31
-Z23 !s108 1702418675.000000
-Z24 !s107 C:/Users/Dell/Desktop/Ahmed/Projects/University/VLSI-Project/Adders/CSA Version 3/Syn_Files/Syn_CSA_adder.v|
-Z25 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Dell/Desktop/Ahmed/Projects/University/VLSI-Project/Adders/CSA Version 3/Syn_Files/Syn_CSA_adder.v|
+R16
+R17
+R18
 !i113 1
 R3
 R4
@@ -3130,23 +3130,23 @@ R3
 R4
 n@m@u@x41@x2
 vMY_MUX
-R16
+!s110 1702468858
 !i10b 1
-!s100 aajNc90E3?T1NXlKg22Xo3
-IBZWEcLgnEj0M3OdQX0mQ[0
+!s100 d9]Ni=nXgRJ4AN2G`VlTm0
+IX5zQ1H4hje?2KAN4D`2^51
 R1
 R0
-R17
-R12
-R13
-L0 127
+w1702468852
+R21
+R22
+L0 114
 R2
 r1
 !s85 0
 31
-R18
-R14
-R15
+!s108 1702468858.000000
+R24
+R25
 !i113 1
 R3
 R4
@@ -4273,17 +4273,17 @@ R11
 R3
 R4
 np405s_mmu_@r@f_64words@x34bits_@w@r@a@p
-vRCA4
+vRCA
 R19
 !i10b 1
-!s100 BoM=?e>hCC[YjS3L7QOmk2
-I?BSXA3RD0^[1TK9?VL`O60
+!s100 Eed<7;Fg>:ATzLDB<OgI60
+IVK8_ibY7hY`;hEm<iI<]d2
 R1
 R0
 R20
 R21
 R22
-L0 159
+L0 108
 R2
 r1
 !s85 0
@@ -4291,6 +4291,28 @@ r1
 R23
 R24
 R25
+!i113 1
+R3
+R4
+n@r@c@a
+vRCA4
+R12
+!i10b 1
+!s100 zm`M_bGffB7Q;l5NIaVYn3
+IF;_P=gmEO>Yn4;V[4VkTz2
+R1
+R0
+R13
+R14
+R15
+L0 154
+R2
+r1
+!s85 0
+31
+R16
+R17
+R18
 !i113 1
 R3
 R4
@@ -4384,23 +4406,23 @@ R3
 R4
 n@r@d@f@f@x2
 vripple_carry_adder
-R16
+!s110 1702468917
 !i10b 1
-!s100 j4aF1mYcA:eHHkf:UKI7]3
-IlA?TN3a3>]P84lkoNTD4`3
+!s100 bG]f8bXN<Qe<^US>8>fni0
+I3WHWOhXk1k7PE2ICi=dXe3
 R1
 R0
-R17
-R12
-R13
-L0 192
+w1702468912
+R21
+R22
+L0 112
 R2
 r1
 !s85 0
 31
-R18
-R14
-R15
+!s108 1702468917.000000
+R24
+R25
 !i113 1
 R3
 R4

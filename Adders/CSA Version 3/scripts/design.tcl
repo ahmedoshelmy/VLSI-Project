@@ -52,3 +52,4 @@ report_timing -max_paths 10 > ./results/synth_timing.rpt
 set sdf_file_path "./results/CSA_ADDER.sdf"
 report_timing -delay_type max -max_paths 10 -from [all_inputs] -to [all_outputs] > $sdf_file_path
 report_power > ./results/total_power.rpt
+    
