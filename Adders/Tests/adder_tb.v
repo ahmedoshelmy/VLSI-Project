@@ -79,10 +79,46 @@ module adder_tb;
     end
     else begin
       $display("TestCase#5: failed with input %h and %h and Output %h and overflow status %b", a, b, sum, cout);
+    end  
+    // Test Case 6: Addition of positive and negative number
+    a = 32'h00000005;
+    b = -32'h00000003;
+    cin = 1'b1;
+    #10;
+    if (sum === 32'h00000003) begin
+      $display("TestCase#6: success");
+      success_count = success_count + 1;
+    end
+    else begin
+      $display("TestCase#6: failed with input %h and %h and Output %h and overflow status %b", a, b, sum, cout);
     end
 
+     // Test Case 7: Addition of positive numbers with carry 1 
+    a = 32'h00000005;
+    b = 32'h00000005;
+    cin = 1'b1;
+    #10;
+    if (sum === 32'h0000000b) begin
+      $display("TestCase#7: success");
+      success_count = success_count + 1;
+    end
+    else begin
+      $display("TestCase#7: failed with input %h and %h and Output %h and overflow status %b", a, b, sum, cout);
+    end
+
+         // Test Case 8: Addition of positive numbers with carry 0
+    a = 32'h00000005;
+    b = 32'h00000005;
+    cin = 1'b0;
+    #10;
+    if (sum === 32'h0000000a) begin
+      $display("TestCase#8: success");
+      success_count = success_count + 1;
+    end
+    else begin
+      $display("TestCase#8: failed with input %h and %h and Output %h and overflow status %b", a, b, sum, cout);
+    end
     $display("Total Success Test Cases: %0d", success_count);
     $finish;
-  end
-
+end
 endmodule
