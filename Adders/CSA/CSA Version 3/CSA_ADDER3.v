@@ -2,7 +2,7 @@
 
 module CSA_ADDER3 #(
     parameter DATA_WIDTH = 32,
-    parameter BLOCK_SIZE = 16
+    parameter BLOCK_SIZE = 4
 )
 (
     input [DATA_WIDTH - 1:0] A,
@@ -106,7 +106,7 @@ module CSA_ADDER3 #(
 
 endmodule
 module RCA_N #(
-    parameter DATA_WIDTH = 16
+    parameter DATA_WIDTH = 4
 )
 (
     input [DATA_WIDTH - 1:0] A,
