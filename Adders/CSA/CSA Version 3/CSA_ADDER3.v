@@ -38,7 +38,6 @@ module CSA_ADDER3 #(
 
     generate
         for (i = 1; i < STAGES_COUNT; i = i + 1) begin : stages_count
-            if (i == STAGES_COUNT - 1) begin
                 RCA_N #(
                     .DATA_WIDTH(BLOCK_SIZE)
                 )
@@ -66,39 +65,6 @@ module CSA_ADDER3 #(
                  (C[i-1] == 1'b1) ? 
                  {C1[i], S1[(i + 1) * BLOCK_SIZE - 1:i * BLOCK_SIZE]} :
                  {C0[i], S0[(i + 1) * BLOCK_SIZE - 1:i * BLOCK_SIZE]};
-            end
-            else begin
-                RCA_N #(
-                    .DATA_WIDTH(BLOCK_SIZE)
-                )
-                U_RCA_C0 (
-                    .A(A[(i + 1) * BLOCK_SIZE - 1:i * BLOCK_SIZE]),
-                    .B(B[(i + 1) * BLOCK_SIZE - 1:i * BLOCK_SIZE]),
-                    .Cin(1'b0),
-
-                    .Cout(C0[i]),
-                    .S(S0[(i + 1) * BLOCK_SIZE - 1:i * BLOCK_SIZE])
-                );
-
-                RCA_N #(
-                    .DATA_WIDTH(BLOCK_SIZE)
-                )
-                U_RCA_C1 (
-                    .A(A[(i + 1) * BLOCK_SIZE - 1:i * BLOCK_SIZE]),
-                    .B(B[(i + 1) * BLOCK_SIZE - 1:i * BLOCK_SIZE]),
-                    .Cin(1'b1),
-                    
-                    .Cout(C1[i]),
-                    .S(S1[(i + 1) * BLOCK_SIZE - 1:i * BLOCK_SIZE])
-                );
-
-                assign {C[i], S[(i + 1) * BLOCK_SIZE - 1:i * BLOCK_SIZE]} =
-                 (C[i-1] == 1'b1) ? 
-                 {C1[i], S1[(i + 1) * BLOCK_SIZE - 1:i * BLOCK_SIZE]} :
-                 {C0[i], S0[(i + 1) * BLOCK_SIZE - 1:i * BLOCK_SIZE]};
-            
-            end
-
         end
     endgenerate
 
