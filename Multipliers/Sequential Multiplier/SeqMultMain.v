@@ -1,15 +1,14 @@
 module A_SeqMult #(
     parameter N = 32
 ) (
-    inputA,
-    inputB,
+    a,
+    b,
     clk,
-    internalClk,
     reset,
     result
 );
-  input internalClk,clk, reset;
-  input [N-1:0] inputA, inputB;
+  input clk, reset;
+  input [N-1:0] a, b;
   output [2*N-1:0] result;
   wire [N-1:0] A_reg;
   wire [N-1:0] B_reg;
@@ -18,17 +17,17 @@ module A_SeqMult #(
   regN #(32) regA (
       clk,
       reset,
-      inputA,
+      a,
       A_reg
   );
   regN #(32) regB (
       clk,
       reset,
-      inputB,
+      b,
       B_reg
   );
   SeqMult sm (
-      internalClk,
+      clk,
       reset,
       A_reg,
       B_reg,
