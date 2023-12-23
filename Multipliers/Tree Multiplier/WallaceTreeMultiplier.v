@@ -7,8 +7,8 @@ module FullAdder (
 );
 
 assign sum = a ^ b ^ cin;
-assign cout = (a & b) | (a & cin) | (b & cin);
-assign cout = cout << 1;
+assign cout = ((a & b) | ((a ^ b) & cin))<< 1'b1;
+
 
 endmodule
 
@@ -26,7 +26,7 @@ module WallaceTreeMultiplier (
     genvar i; 
     generate
 	for (i = 0; i < 64; i = i + 1) begin: signExtend
-		assign p[i] = SignedExtendedA[i] == 1'b1 ? SignedExtendedB << i : 64'b0;
+		assign p[i] = SignedExtendedB[i] == 1'b1 ? SignedExtendedA << i : 64'b0;
 	end
 	endgenerate
     // generate 
@@ -36,9 +36,9 @@ module WallaceTreeMultiplier (
         FullAdder x6(p[i*3],p[i*3+1],p[i*3+2],g[i],g[i+21]);
     end 
     endgenerate
+
     //2nd stage 
     wire[63:0] g2[27:0];
-
     generate
         for (i=0 ; i < 14 ; i = i+1) begin: level2
         FullAdder x5(g[i*3],g[i*3+1],g[i*3+2],g2[i],g2[i+14]);
@@ -89,3 +89,4 @@ module WallaceTreeMultiplier (
 
     assign out = g10[1] + g10[0];
 endmodule
+
