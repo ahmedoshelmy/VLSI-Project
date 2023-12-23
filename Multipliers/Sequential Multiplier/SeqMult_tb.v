@@ -1,22 +1,27 @@
 module A_SeqMult_TB;
   parameter N = 32;
   reg clk = 0;
+  reg internalClk = 0;
   reg [N-1:0] multiplicand;
   reg [N-1:0] multiplier;
   reg reset = 0;
   reg en = 1;
   wire [2*N-1:0] product;
 
-  SeqMult mult (
-      clk,
-      reset,
-      multiplicand,
-      multiplier,
-      product
+  A_SeqMult mult (
+     multiplicand,
+    multiplier,
+    clk,
+    internalClk,
+    reset,
+    product
   );
 
   always begin
-    #1 clk = ~clk;
+    #32 clk = ~clk;
+  end
+   always begin
+    #1 internalClk = ~internalClk;
   end
 
 
@@ -26,9 +31,9 @@ module A_SeqMult_TB;
     multiplicand = 32'd7;
     multiplier = 32'd2;  //result = 14
     assign reset = 1;
-    #100 ;
+    #500 ;
     assign reset = 0;
-    #100;
+    #500;
 
       if (product != 64'd14)
         $display(
@@ -49,7 +54,7 @@ module A_SeqMult_TB;
     assign reset = 1;
     #10 ;
     assign reset = 0;
-    #100;
+    #500;
 
       if (product != -64'd21)
         $display(
@@ -70,7 +75,7 @@ module A_SeqMult_TB;
     assign reset = 1;
     #10 ;
     assign reset = 0;
-    #100;
+    #500;
       if (product != 64'd0)
         $display(
             "TestCase#3: failed with input %d and %d and Output %d",
@@ -89,7 +94,7 @@ module A_SeqMult_TB;
     assign reset = 1;
     #10 ;
     assign reset = 0;
-    #100;
+    #500;
 
       if (product != -64'd200)
         $display(
@@ -110,7 +115,7 @@ module A_SeqMult_TB;
     assign reset = 1;
     #10 ;
     assign reset = 0;
-    #100;
+    #500;
 
       if (product != 64'd0)
         $display(
@@ -131,7 +136,7 @@ module A_SeqMult_TB;
     assign reset = 1;
     #10 ;
     assign reset = 0;
-    #100;
+    #500;
 
       if (product != 64'd4)
         $display(
@@ -152,7 +157,7 @@ module A_SeqMult_TB;
    assign reset = 1;
     #10 ;
     assign reset = 0;
-    #100;
+    #500;
       if (product != 64'd0)
         $display(
             "TestCase#7: failed with input %d and %d and Output %d",
@@ -172,7 +177,7 @@ module A_SeqMult_TB;
    assign reset = 1;
     #10 ;
     assign reset = 0;
-    #100;
+    #500;
       if (product != 64'd0)
         $display(
             "TestCase#8: failed with input %d and %d and Output %d",
@@ -192,7 +197,7 @@ module A_SeqMult_TB;
       assign reset = 1;
     #10 ;
     assign reset = 0;
-    #100;
+    #500;
 
       if (product != -64'd57)
         $display(
@@ -213,7 +218,7 @@ module A_SeqMult_TB;
       assign reset = 1;
     #10 ;
     assign reset = 0;
-    #100;
+    #500;
 
       if (product != -64'd250)
         $display(

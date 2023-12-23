@@ -1,4 +1,5 @@
-module SeqMult (clk,
+module SeqMult (
+    clk,
                 rst,
                 A,
                 B,
