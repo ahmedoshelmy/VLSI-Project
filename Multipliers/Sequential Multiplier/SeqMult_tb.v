@@ -8,15 +8,14 @@ module A_SeqMult_TB;
   reg en = 1;
   wire [2*N-1:0] product;
 
-  A_SeqMult mult (
-     multiplicand,
-    multiplier,
+  SeqMult mult (
     clk,
     internalClk,
-    reset,
+        reset,
+     multiplicand,
+    multiplier,
     product
   );
-
   always begin
     #32 clk = ~clk;
   end
