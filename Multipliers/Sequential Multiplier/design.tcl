@@ -7,7 +7,7 @@ current_design regN
 link
 elaborate regN
 check_design
-source ./source/Mult.sdc	
+source ./source/reg.sdc	
 compile -exact_map > ./results/compile.log
 write -format verilog -output ./results/Synth_regN.v
 
@@ -34,7 +34,7 @@ current_design A_SeqMult
 link
 elaborate A_SeqMult
 check_design
-source ./source/Mult.sdc	
+source ./source/MultMain.sdc	
 compile -exact_map > ./results/compile.log
 write -format verilog -output ./results/Synth_SeqMultMain.v
 
@@ -45,6 +45,6 @@ report_qor  > ./results/synth_qor.rpt
 report_resources > ./results/synth_resources.rpt
 report_timing  -max_paths 100 > ./results/synth_timing.rpt 
 # Generate SDF file
-set sdf_file_path "./results/CSA_ADDER3.sdf"
+set sdf_file_path "./results/seqMult.sdf"
 report_timing   -max_paths 100   -delay_type  max  -from [all_inputs] -to [all_outputs] > $sdf_file_path
 report_power > ./results/total_power.rpt
