@@ -3,28 +3,28 @@
 Report : area
 Design : VerilogMultiplier
 Version: G-2012.06-SP2
-Date   : Thu Jun 23 21:05:35 2016
+Date   : Sat Dec 24 21:28:11 2016
 ****************************************
 
 Information: Updating design information... (UID-85)
 Library(s) Used:
 
-    saed90nm_typ_ht (File: /home/ahesham/Desktop/VerilogMultiplier/ref/models/saed90nm_typ_ht.db)
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
 
 Number of ports:                          130
-Number of nets:                           278
-Number of cells:                          148
-Number of combinational cells:             19
+Number of nets:                           271
+Number of cells:                          141
+Number of combinational cells:             12
 Number of sequential cells:               128
 Number of macros:                           0
-Number of buf/inv:                         19
+Number of buf/inv:                         12
 Number of references:                       4
 
-Combinational area:       50225.357257
-Buf/Inv area:             2477.260813
-Noncombinational area:    4128.768066
-Net Interconnect area:    3228.563659  
+Combinational area:       5344.206008
+Buf/Inv area:              216.257996
+Noncombinational area:     680.960022
+Net Interconnect area:      undefined  (Wire load has zero net area)
 
-Total cell area:          54354.125323
-Total area:               57582.688983
+Total cell area:          6025.166030
+Total area:                 undefined
 1

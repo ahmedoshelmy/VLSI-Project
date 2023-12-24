@@ -3,16 +3,16 @@
 Report : qor
 Design : VerilogMultiplier
 Version: G-2012.06-SP2
-Date   : Thu Jun 23 21:05:35 2016
+Date   : Sat Dec 24 21:28:11 2016
 ****************************************
 
 
   Timing Path Group 'clk'
   -----------------------------------
-  Levels of Logic:              70.00
-  Critical Path Length:         59.83
-  Critical Path Slack:           0.00
-  Critical Path Clk Period:     60.00
+  Levels of Logic:              60.00
+  Critical Path Length:          4.83
+  Critical Path Slack:           0.14
+  Critical Path Clk Period:      5.00
   Total Negative Slack:          0.00
   No. of Violating Paths:        0.00
   Worst Hold Violation:          0.00
@@ -25,10 +25,10 @@ Date   : Thu Jun 23 21:05:35 2016
   -----------------------------------
   Hierarchical Cell Count:          2
   Hierarchical Port Count:        317
-  Leaf Cell Count:               5158
-  Buf/Inv Cell Count:             311
+  Leaf Cell Count:               2686
+  Buf/Inv Cell Count:             306
   CT Buf/Inv Cell Count:            0
-  Combinational Cell Count:      5030
+  Combinational Cell Count:      2558
   Sequential Cell Count:          128
   Macro Count:                      0
   -----------------------------------
@@ -36,18 +36,18 @@ Date   : Thu Jun 23 21:05:35 2016
 
   Area
   -----------------------------------
-  Combinational Area:    50225.357257
-  Noncombinational Area:  4128.768066
-  Buf/Inv Area:           2477.260813
-  Net Area:               3228.563659
+  Combinational Area:     5344.206008
+  Noncombinational Area:   680.960022
+  Buf/Inv Area:            216.257996
+  Net Area:                  0.000000
   -----------------------------------
-  Cell Area:             54354.125323
-  Design Area:           57582.688983
+  Cell Area:              6025.166030
+  Design Area:            6025.166030
 
 
   Design Rules
   -----------------------------------
-  Total Number of Nets:          5608
+  Total Number of Nets:          3687
   Nets With Violations:             0
   Max Trans Violations:             0
   Max Cap Violations:               0
@@ -58,11 +58,11 @@ Date   : Thu Jun 23 21:05:35 2016
 
   Compile CPU Statistics
   -----------------------------------------
-  Resource Sharing:                    1.50
-  Logic Optimization:                  1.68
-  Mapping Optimization:                8.77
+  Resource Sharing:                    1.27
+  Logic Optimization:                  0.55
+  Mapping Optimization:                0.63
   -----------------------------------------
-  Overall Compile Time:               12.52
-  Overall Compile Wall Clock Time:    12.93
+  Overall Compile Time:                2.87
+  Overall Compile Wall Clock Time:     3.10
 
 1

@@ -6,11 +6,11 @@ Report : timing
         -max_paths 200
 Design : VerilogMultiplier
 Version: G-2012.06-SP2
-Date   : Thu Jun 23 21:05:35 2016
+Date   : Sat Dec 24 21:28:11 2016
 ****************************************
 
-Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
-Wire Load Model Mode: enclosed
+Operating Conditions: worst_low   Library: NangateOpenCellLibrary_ss0p95vn40c
+Wire Load Model Mode: top
 No paths.
 
 1
