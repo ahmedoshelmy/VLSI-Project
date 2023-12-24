@@ -3,28 +3,28 @@
 Report : area
 Design : SeqMult
 Version: G-2012.06-SP2
-Date   : Sat Dec 24 00:09:23 2016
+Date   : Sat Dec 24 21:11:58 2016
 ****************************************
 
 Information: Updating design information... (UID-85)
 Library(s) Used:
 
-    saed90nm_typ_ht (File: /home/ahesham/Desktop/SequentialM/ref/models/saed90nm_typ_ht.db)
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
 
 Number of ports:                          131
-Number of nets:                          1454
-Number of cells:                         1018
-Number of combinational cells:            693
+Number of nets:                          1416
+Number of cells:                         1005
+Number of combinational cells:            680
 Number of sequential cells:               319
 Number of macros:                           0
-Number of buf/inv:                        138
-Number of references:                      31
+Number of buf/inv:                        136
+Number of references:                      30
 
-Combinational area:       14275.584125
-Buf/Inv area:             2325.196856
-Noncombinational area:    8173.670328
-Net Interconnect area:    1396.157227  
+Combinational area:       1548.119999
+Buf/Inv area:              194.446000
+Noncombinational area:    1468.053958
+Net Interconnect area:      undefined  (Wire load has zero net area)
 
-Total cell area:          22449.254453
-Total area:               23845.411680
+Total cell area:          3016.173958
+Total area:                 undefined
 1

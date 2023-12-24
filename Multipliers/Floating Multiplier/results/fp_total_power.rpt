@@ -1,0 +1,60 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : BoothMultiplier
+Version: G-2012.06-SP2
+Date   : Sat Dec 24 21:05:29 2016
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/ahesham/Desktop/FP_MULT/ref/models/saed90nm_typ_ht.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+BoothMultiplier        16000             saed90nm_typ_ht
+BoothMultiplier_DW01_sub_1
+                       8000              saed90nm_typ_ht
+BoothMultiplier_DW01_add_1
+                       8000              saed90nm_typ_ht
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  = 703.0947 uW   (73%)
+  Net Switching Power  = 255.6542 uW   (27%)
+                         ---------
+Total Dynamic Power    = 958.7489 uW  (100%)
+
+Cell Leakage Power     = 183.3251 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register          41.4559           43.6875        3.1561e+07          116.7044  (  10.22%)
+sequential         4.7933            8.5333        3.8639e+07           51.9656  (   4.55%)
+combinational    656.8458          203.4334        1.1313e+08          973.4043  (  85.23%)
+--------------------------------------------------------------------------------------------------
+Total            703.0951 uW       255.6542 uW     1.8333e+08 pW     1.1421e+03 uW
+1

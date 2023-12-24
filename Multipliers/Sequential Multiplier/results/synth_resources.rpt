@@ -3,7 +3,7 @@
 Report : resources
 Design : SeqMult
 Version: G-2012.06-SP2
-Date   : Sat Dec 24 00:09:23 2016
+Date   : Sat Dec 24 21:11:58 2016
 ****************************************
 
 Resource Sharing Report for design SeqMult in file ./source/SeqMult.v
@@ -29,10 +29,10 @@ Implementation Report
 ===============================================================================
 | sub_43_S2          | DW01_sub         | cla                |                |
 | add_51_S2_aco      | DW01_add         | cla                |                |
-| sub_59_S2          | DW01_sub         | cla                |                |
-| add_60             | DW01_inc         | cla                |                |
 | sub_46_S2          | DW01_sub         | cla                |                |
+| sub_59_S2          | DW01_sub         | cla                |                |
 | mult_add_51_S2_aco | DW02_mult        | csa                |                |
+| add_60             | DW01_inc         | rpl                |                |
 ===============================================================================
 
 
