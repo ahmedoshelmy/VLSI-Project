@@ -3,14 +3,32 @@ module FP_MULTIPLIER(
   input rst,
   input signed [31:0] A,
   input signed [31:0] B,
-  output signed [31:0] P
+  output reg signed [31:0] P_reg
 );
+
+    reg signed [31:0] A_reg;
+    reg signed [31:0] B_reg;
+
     wire [23:0] A_mantissa;
     wire [23:0] B_mantissa;
     wire [47:0] mantissa_product;
     wire [47:0] shifted_mantissa_product;
     wire [5:0] count;
     wire [7:0] exponent_sum;
+    wire [31:0] P;
+
+    always @(posedge clk,posedge rst) begin
+        if (rst) begin
+            A_reg <= 0;
+            B_reg <= 0;
+            P_reg <= 0;
+        end
+        else begin
+            A_reg <= A;
+            B_reg <= B;
+            P_reg <= P;
+        end
+    end
 
     assign A_mantissa = {1'b1,A[22:0]};
     assign B_mantissa = {1'b1,B[22:0]};

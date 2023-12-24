@@ -20,7 +20,7 @@ module FP_MULTIPLIER_TB;
     .rst(rst),
     .A(A),
     .B(B),
-    .P(P)
+    .P_reg(P)
   );
 
   // Clock generation
@@ -32,8 +32,8 @@ module FP_MULTIPLIER_TB;
   // Initial stimulus
   initial begin
     rst = 1;
-    #10 rst = 0;  // Deassert reset after 10 clock cycles
-
+    #1 rst = 0;  // Deassert reset after 10 clock cycles
+    #9
     // Add your stimulus here
     A = 32'b11000000010000000000000000000000;
     B = 32'b01000000001000000000000000000000;
