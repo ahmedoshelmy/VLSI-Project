@@ -1,15 +1,23 @@
-module BoothMultiplier #(
+module BoothMultiplier_Pre #(
   parameter N = 32
 )(
   input clk,
   input oClk,
   input rst,
+  input oRst,
+  input signed [N-1:0] M,
+  input signed [N-1:0] Q,
+  output reg signed [2*N-1:0] P
   input signed [N-1:0] M,
   input signed [N-1:0] Q,
   output reg signed [2*N-1:0] P
 );
 
   // Internal registers
+  reg signed [N-1:0] Q_reg;
+  reg signed [N-1:0] Acc;
+  reg signed [N-1:0] M_reg;
+  reg signed Q_prev;
   reg signed [N-1:0] Q_reg_in;
   reg signed [N-1:0] Q_reg;
   reg signed [N-1:0] Acc;
@@ -20,7 +28,13 @@ module BoothMultiplier #(
   wire signed [2*N:0] case_add_shifted;
   wire signed [2*N:0] case_sub;
   wire signed [2*N:0] case_sub_shifted;
+  wire signed [2*N:0] case_add;
+  wire signed [2*N:0] case_add_shifted;
+  wire signed [2*N:0] case_sub;
+  wire signed [2*N:0] case_sub_shifted;
 
+  always @(posedge oClk,posedge oRst) begin
+    if (oRst) begin
   always @(posedge oClk,posedge rst) begin
     if (rst) begin
       Q_reg_in <= Q;

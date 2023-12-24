@@ -1,4 +1,4 @@
-module SeqMult (
+module SeqMultPre (
     clk,
     internalClk,
                 rst,
