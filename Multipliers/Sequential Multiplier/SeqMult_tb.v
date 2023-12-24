@@ -8,13 +8,13 @@ module A_SeqMult_TB;
   reg en = 1;
   wire [2*N-1:0] product;
 
-  BoothMultiplier #(N) UUT (
-    .clk(internalClk),
-    .oClk(oClk),
-    .rst(rst),
-    .M(multiplicand),
-    .Q(multiplier),
-    .P(product)
+  SeqMult mult (
+    clk,
+    internalClk,
+        reset,
+     multiplicand,
+    multiplier,
+    product
   );
   always begin
     #32 clk = ~clk;
