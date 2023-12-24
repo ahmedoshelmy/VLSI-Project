@@ -1,4 +1,4 @@
-    module FullAdder (
+module FullAdder (
         input  wire  [63:0] a,
         input  wire  [63:0] b,
         input  wire  [63:0] cin,
