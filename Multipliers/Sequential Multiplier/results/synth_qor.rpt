@@ -3,16 +3,16 @@
 Report : qor
 Design : SeqMult
 Version: G-2012.06-SP2
-Date   : Sat Dec 24 00:09:23 2016
+Date   : Sat Dec 24 21:11:58 2016
 ****************************************
 
 
   Timing Path Group 'clk'
   -----------------------------------
   Levels of Logic:               1.00
-  Critical Path Length:          0.34
-  Critical Path Slack:           3.52
-  Critical Path Clk Period:    128.00
+  Critical Path Length:          0.11
+  Critical Path Slack:           1.86
+  Critical Path Clk Period:     64.00
   Total Negative Slack:          0.00
   No. of Violating Paths:        0.00
   Worst Hold Violation:          0.00
@@ -22,10 +22,10 @@ Date   : Sat Dec 24 00:09:23 2016
 
   Timing Path Group 'internalClk'
   -----------------------------------
-  Levels of Logic:              25.00
-  Critical Path Length:          3.87
-  Critical Path Slack:           0.00
-  Critical Path Clk Period:      4.00
+  Levels of Logic:              46.00
+  Critical Path Length:          1.95
+  Critical Path Slack:           0.01
+  Critical Path Clk Period:      2.00
   Total Negative Slack:          0.00
   No. of Violating Paths:        0.00
   Worst Hold Violation:          0.00
@@ -38,10 +38,10 @@ Date   : Sat Dec 24 00:09:23 2016
   -----------------------------------
   Hierarchical Cell Count:          6
   Hierarchical Port Count:        619
-  Leaf Cell Count:               2071
-  Buf/Inv Cell Count:             407
+  Leaf Cell Count:               1721
+  Buf/Inv Cell Count:             327
   CT Buf/Inv Cell Count:            0
-  Combinational Cell Count:      1752
+  Combinational Cell Count:      1402
   Sequential Cell Count:          319
   Macro Count:                      0
   -----------------------------------
@@ -49,18 +49,18 @@ Date   : Sat Dec 24 00:09:23 2016
 
   Area
   -----------------------------------
-  Combinational Area:    14275.584125
-  Noncombinational Area:  8173.670328
-  Buf/Inv Area:           2325.196856
-  Net Area:               1396.157227
+  Combinational Area:     1548.119999
+  Noncombinational Area:  1468.053958
+  Buf/Inv Area:            194.446000
+  Net Area:                  0.000000
   -----------------------------------
-  Cell Area:             22449.254453
-  Design Area:           23845.411680
+  Cell Area:              3016.173958
+  Design Area:            3016.173958
 
 
   Design Rules
   -----------------------------------
-  Total Number of Nets:          2289
+  Total Number of Nets:          1945
   Nets With Violations:             0
   Max Trans Violations:             0
   Max Cap Violations:               0
@@ -71,11 +71,11 @@ Date   : Sat Dec 24 00:09:23 2016
 
   Compile CPU Statistics
   -----------------------------------------
-  Resource Sharing:                    0.53
-  Logic Optimization:                  5.43
-  Mapping Optimization:                9.68
+  Resource Sharing:                    0.62
+  Logic Optimization:                  4.00
+  Mapping Optimization:                1.00
   -----------------------------------------
-  Overall Compile Time:               16.47
-  Overall Compile Wall Clock Time:    16.75
+  Overall Compile Time:                6.35
+  Overall Compile Wall Clock Time:     6.59
 
 1
