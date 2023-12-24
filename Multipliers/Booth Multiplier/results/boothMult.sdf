@@ -4,9 +4,9 @@ Report : timing
         -path full
         -delay max
         -max_paths 100
-Design : FP_MULTIPLIER
+Design : BoothMultiplier
 Version: G-2012.06-SP2
-Date   : Sat Dec 24 22:33:31 2016
+Date   : Sat Dec 24 21:38:34 2016
 ****************************************
 
 Operating Conditions: worst_low   Library: NangateOpenCellLibrary_ss0p95vn40c

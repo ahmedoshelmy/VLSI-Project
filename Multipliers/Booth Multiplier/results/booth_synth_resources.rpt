@@ -1,20 +1,21 @@
  
 ****************************************
 Report : resources
-Design : VerilogMultiplier
+Design : BoothMultiplier
 Version: G-2012.06-SP2
-Date   : Thu Jun 23 21:05:35 2016
+Date   : Sat Dec 24 21:38:34 2016
 ****************************************
 
-Resource Sharing Report for design VerilogMultiplier in file
-        ./source/verilog_multiplier.v
+Resource Sharing Report for design BoothMultiplier in file ./source/Booth.v
 
 ===============================================================================
 |          |              |            | Contained     |                      |
 | Resource | Module       | Parameters | Resources     | Contained Operations |
 ===============================================================================
-| r140     | DW02_mult    | A_width=32 |               | mult_21              |
-|          |              | B_width=32 |               |                      |
+| r60      | DW01_cmp2    | width=6    |               | gt_40                |
+| r62      | DW01_dec     | width=6    |               | sub_51               |
+| r64      | DW01_add     | width=32   |               | add_57               |
+| r66      | DW01_sub     | width=32   |               | sub_61               |
 ===============================================================================
 
 
@@ -23,7 +24,8 @@ Implementation Report
 |                    |                  | Current            | Set            |
 | Cell               | Module           | Implementation     | Implementation |
 ===============================================================================
-| mult_21            | DW02_mult        | csa                |                |
+| add_57             | DW01_add         | rpl                |                |
+| sub_61             | DW01_sub         | rpl                |                |
 ===============================================================================
 
 

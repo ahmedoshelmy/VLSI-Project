@@ -1,9 +1,9 @@
  
 ****************************************
 Report : cell
-Design : BoothMultiplier
+Design : FP_MULTIPLIER
 Version: G-2012.06-SP2
-Date   : Sat Dec 24 21:05:29 2016
+Date   : Sat Dec 24 22:33:31 2016
 ****************************************
 
 Attributes:
@@ -16,444 +16,473 @@ Attributes:
 
 Cell                      Reference       Library             Area  Attributes
 --------------------------------------------------------------------------------
-Acc_reg[0]                DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[1]                DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[2]                DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[3]                DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[4]                DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[5]                DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[6]                DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[7]                DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[8]                DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[9]                DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[10]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[11]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[12]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[13]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[14]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[15]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[16]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[17]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[18]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[19]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[20]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[21]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[22]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[23]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[24]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[25]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[26]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[27]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[28]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[29]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[30]               DFFARX1         saed90nm_typ_ht 32.256001 n
-Acc_reg[31]               DFFARX1         saed90nm_typ_ht 32.256001 n
-M_reg_reg[0]              LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[1]              LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[2]              LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[3]              LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[4]              LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[5]              LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[6]              LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[7]              LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[8]              LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[9]              LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[10]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[11]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[12]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[13]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[14]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[15]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[16]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[17]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[18]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[19]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[20]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[21]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[22]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[23]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[24]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[25]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[26]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[27]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[28]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[29]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[30]             LATCHX1         saed90nm_typ_ht 22.118401 n
-M_reg_reg[31]             LATCHX1         saed90nm_typ_ht 22.118401 n
-P_reg[0]                  DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[1]                  DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[2]                  DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[3]                  DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[4]                  DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[5]                  DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[6]                  DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[7]                  DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[8]                  DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[9]                  DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[10]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[11]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[12]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[13]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[14]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[15]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[16]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[17]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[18]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[19]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[20]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[21]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[22]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[23]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[24]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[25]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[26]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[27]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[28]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[29]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[30]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[31]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[32]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[33]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[34]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[35]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[36]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[37]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[38]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[39]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[40]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[41]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[42]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[43]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[44]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[45]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[46]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[47]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[48]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[49]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[50]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[51]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[52]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[53]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[54]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[55]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[56]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[57]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[58]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[59]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[60]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[61]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[62]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-P_reg[63]                 DFFARX1         saed90nm_typ_ht 32.256001 n
-Q_prev_reg                DFFARX1         saed90nm_typ_ht 32.256001 n
-Q_reg_reg[0]              DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[1]              DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[2]              DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[3]              DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[4]              DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[5]              DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[6]              DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[7]              DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[8]              DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[9]              DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[10]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[11]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[12]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[13]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[14]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[15]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[16]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[17]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[18]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[19]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[20]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[21]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[22]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[23]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[24]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[25]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[26]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[27]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[28]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[29]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[30]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-Q_reg_reg[31]             DFFASRX1        saed90nm_typ_ht 35.020802 n
-U4                        AO22X1          saed90nm_typ_ht 11.980800 
-U5                        AO22X1          saed90nm_typ_ht 11.980800 
-U9                        AO22X1          saed90nm_typ_ht 11.980800 
-U13                       AO22X1          saed90nm_typ_ht 11.980800 
-U15                       OR2X1           saed90nm_typ_ht 7.372800  
-U16                       AO22X1          saed90nm_typ_ht 11.980800 
-U19                       OR2X1           saed90nm_typ_ht 7.372800  
-U20                       AO22X1          saed90nm_typ_ht 11.980800 
-U23                       OR2X1           saed90nm_typ_ht 7.372800  
-U24                       AO22X1          saed90nm_typ_ht 11.980800 
-U27                       OR2X1           saed90nm_typ_ht 7.372800  
-U28                       AO22X1          saed90nm_typ_ht 11.980800 
-U31                       OR2X1           saed90nm_typ_ht 7.372800  
-U32                       AO22X1          saed90nm_typ_ht 11.980800 
-U35                       OR2X1           saed90nm_typ_ht 7.372800  
-U36                       AO22X1          saed90nm_typ_ht 11.980800 
-U39                       OR2X1           saed90nm_typ_ht 7.372800  
-U43                       OR2X1           saed90nm_typ_ht 7.372800  
-U44                       AO22X1          saed90nm_typ_ht 11.980800 
-U47                       OR2X1           saed90nm_typ_ht 7.372800  
-U48                       AO22X1          saed90nm_typ_ht 11.980800 
-U51                       OR2X1           saed90nm_typ_ht 7.372800  
-U52                       AO22X1          saed90nm_typ_ht 11.980800 
-U55                       OR2X1           saed90nm_typ_ht 7.372800  
-U56                       AO22X1          saed90nm_typ_ht 11.980800 
-U59                       OR2X1           saed90nm_typ_ht 7.372800  
-U60                       AO22X1          saed90nm_typ_ht 11.980800 
-U63                       OR2X1           saed90nm_typ_ht 7.372800  
-U64                       AO22X1          saed90nm_typ_ht 11.980800 
-U67                       OR2X1           saed90nm_typ_ht 7.372800  
-U68                       AO22X1          saed90nm_typ_ht 11.980800 
-U71                       OR2X1           saed90nm_typ_ht 7.372800  
-U72                       AO22X1          saed90nm_typ_ht 11.980800 
-U75                       OR2X1           saed90nm_typ_ht 7.372800  
-U76                       AO22X1          saed90nm_typ_ht 11.980800 
-U79                       OR2X1           saed90nm_typ_ht 7.372800  
-U80                       AO22X1          saed90nm_typ_ht 11.980800 
-U83                       OR2X1           saed90nm_typ_ht 7.372800  
-U84                       AO22X1          saed90nm_typ_ht 11.980800 
-U87                       OR2X1           saed90nm_typ_ht 7.372800  
-U88                       AO22X1          saed90nm_typ_ht 11.980800 
-U91                       OR2X1           saed90nm_typ_ht 7.372800  
-U92                       AO22X1          saed90nm_typ_ht 11.980800 
-U95                       OR2X1           saed90nm_typ_ht 7.372800  
-U96                       AO22X1          saed90nm_typ_ht 11.980800 
-U99                       OR2X1           saed90nm_typ_ht 7.372800  
-U100                      AO22X1          saed90nm_typ_ht 11.980800 
-U103                      OR2X1           saed90nm_typ_ht 7.372800  
-U104                      AO22X1          saed90nm_typ_ht 11.980800 
-U107                      OR2X1           saed90nm_typ_ht 7.372800  
-U108                      AO22X1          saed90nm_typ_ht 11.980800 
-U111                      OR2X1           saed90nm_typ_ht 7.372800  
-U112                      AO22X1          saed90nm_typ_ht 11.980800 
-U115                      OR2X1           saed90nm_typ_ht 7.372800  
-U116                      AO22X1          saed90nm_typ_ht 11.980800 
-U119                      OR2X1           saed90nm_typ_ht 7.372800  
-U120                      AO22X1          saed90nm_typ_ht 11.980800 
-U123                      OR2X1           saed90nm_typ_ht 7.372800  
-U124                      AO22X1          saed90nm_typ_ht 11.980800 
-U127                      OR2X1           saed90nm_typ_ht 7.372800  
-U128                      AO22X1          saed90nm_typ_ht 11.980800 
-U131                      OR2X1           saed90nm_typ_ht 7.372800  
-U132                      AO22X1          saed90nm_typ_ht 11.980800 
-U136                      OR2X1           saed90nm_typ_ht 7.372800  
-U140                      OR2X1           saed90nm_typ_ht 7.372800  
-U246                      NBUFFX4         saed90nm_typ_ht 10.137600 
-U247                      INVX0           saed90nm_typ_ht 5.529600  
-U248                      OR2X1           saed90nm_typ_ht 7.372800  
-U249                      DELLN1X2        saed90nm_typ_ht 14.745600 
-U250                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U251                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U252                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U253                      INVX0           saed90nm_typ_ht 5.529600  
-U254                      INVX0           saed90nm_typ_ht 5.529600  
-U255                      INVX0           saed90nm_typ_ht 5.529600  
-U256                      INVX0           saed90nm_typ_ht 5.529600  
-U257                      INVX0           saed90nm_typ_ht 5.529600  
-U258                      INVX0           saed90nm_typ_ht 5.529600  
-U259                      INVX0           saed90nm_typ_ht 5.529600  
-U260                      AO22X1          saed90nm_typ_ht 11.980800 
-U261                      INVX0           saed90nm_typ_ht 5.529600  
-U262                      INVX0           saed90nm_typ_ht 5.529600  
-U263                      INVX0           saed90nm_typ_ht 5.529600  
-U264                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U265                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U266                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U267                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U268                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U269                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U270                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U271                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U272                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U273                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U274                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U275                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U276                      AND2X1          saed90nm_typ_ht 7.372800  
-U277                      INVX0           saed90nm_typ_ht 5.529600  
-U278                      INVX0           saed90nm_typ_ht 5.529600  
-U279                      INVX0           saed90nm_typ_ht 5.529600  
-U280                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U281                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U282                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U283                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U284                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U285                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U286                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U287                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U288                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U289                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U290                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U291                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U292                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U293                      AOI21X1         saed90nm_typ_ht 11.980800 
-U294                      NOR2X0          saed90nm_typ_ht 5.529600  
-U295                      AND3X1          saed90nm_typ_ht 8.294400  
-U296                      AND3X1          saed90nm_typ_ht 8.294400  
-U297                      NOR3X0          saed90nm_typ_ht 8.294400  
-U298                      INVX0           saed90nm_typ_ht 5.529600  
-U299                      INVX0           saed90nm_typ_ht 5.529600  
-U300                      INVX0           saed90nm_typ_ht 5.529600  
-U301                      INVX0           saed90nm_typ_ht 5.529600  
-U302                      INVX0           saed90nm_typ_ht 5.529600  
-U303                      INVX0           saed90nm_typ_ht 5.529600  
-U304                      INVX0           saed90nm_typ_ht 5.529600  
-U305                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U306                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U307                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U308                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U309                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U310                      INVX0           saed90nm_typ_ht 5.529600  
-U311                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U312                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U313                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U314                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U315                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U316                      NAND2X1         saed90nm_typ_ht 5.529600  
-U317                      NAND2X1         saed90nm_typ_ht 5.529600  
-U318                      NAND2X1         saed90nm_typ_ht 5.529600  
-U319                      NAND2X1         saed90nm_typ_ht 5.529600  
-U320                      NAND2X1         saed90nm_typ_ht 5.529600  
-U321                      NAND2X1         saed90nm_typ_ht 5.529600  
-U322                      NAND2X1         saed90nm_typ_ht 5.529600  
-U323                      NAND2X1         saed90nm_typ_ht 5.529600  
-U324                      NAND2X1         saed90nm_typ_ht 5.529600  
-U325                      NAND2X1         saed90nm_typ_ht 5.529600  
-U326                      NAND2X1         saed90nm_typ_ht 5.529600  
-U327                      NAND2X1         saed90nm_typ_ht 5.529600  
-U328                      NAND2X1         saed90nm_typ_ht 5.529600  
-U329                      NAND2X1         saed90nm_typ_ht 5.529600  
-U330                      NAND2X1         saed90nm_typ_ht 5.529600  
-U331                      NAND2X1         saed90nm_typ_ht 5.529600  
-U332                      NAND2X1         saed90nm_typ_ht 5.529600  
-U333                      NAND2X1         saed90nm_typ_ht 5.529600  
-U334                      NAND2X1         saed90nm_typ_ht 5.529600  
-U335                      NAND2X1         saed90nm_typ_ht 5.529600  
-U336                      NAND2X1         saed90nm_typ_ht 5.529600  
-U337                      NAND2X1         saed90nm_typ_ht 5.529600  
-U338                      NAND2X1         saed90nm_typ_ht 5.529600  
-U339                      NAND2X1         saed90nm_typ_ht 5.529600  
-U340                      NAND2X1         saed90nm_typ_ht 5.529600  
-U341                      NAND2X1         saed90nm_typ_ht 5.529600  
-U342                      NAND2X1         saed90nm_typ_ht 5.529600  
-U343                      NAND2X1         saed90nm_typ_ht 5.529600  
-U344                      NAND2X1         saed90nm_typ_ht 5.529600  
-U345                      NAND2X1         saed90nm_typ_ht 5.529600  
-U346                      NAND2X1         saed90nm_typ_ht 5.529600  
-U347                      NAND2X1         saed90nm_typ_ht 5.529600  
-U348                      INVX0           saed90nm_typ_ht 5.529600  
-U349                      INVX0           saed90nm_typ_ht 5.529600  
-U350                      INVX0           saed90nm_typ_ht 5.529600  
-U351                      INVX0           saed90nm_typ_ht 5.529600  
-U352                      INVX0           saed90nm_typ_ht 5.529600  
-U353                      INVX0           saed90nm_typ_ht 5.529600  
-U354                      INVX0           saed90nm_typ_ht 5.529600  
-U355                      INVX0           saed90nm_typ_ht 5.529600  
-U356                      INVX0           saed90nm_typ_ht 5.529600  
-U357                      INVX0           saed90nm_typ_ht 5.529600  
-U358                      INVX0           saed90nm_typ_ht 5.529600  
-U359                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U360                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U361                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U362                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U363                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U364                      NBUFFX2         saed90nm_typ_ht 5.529600  
-U365                      INVX0           saed90nm_typ_ht 5.529600  
-U366                      INVX0           saed90nm_typ_ht 5.529600  
-U367                      INVX0           saed90nm_typ_ht 5.529600  
-U368                      INVX0           saed90nm_typ_ht 5.529600  
-U369                      NAND4X0         saed90nm_typ_ht 8.294400  
-U370                      AND2X1          saed90nm_typ_ht 7.372800  
-U371                      AND2X1          saed90nm_typ_ht 7.372800  
-U372                      MUX21X1         saed90nm_typ_ht 11.059200 
-U373                      MUX21X1         saed90nm_typ_ht 11.059200 
-U374                      XOR2X1          saed90nm_typ_ht 13.824000 
-U375                      AO22X1          saed90nm_typ_ht 11.980800 
-U376                      AO221X1         saed90nm_typ_ht 12.902400 
-U377                      AO22X1          saed90nm_typ_ht 11.980800 
-U378                      AO221X1         saed90nm_typ_ht 12.902400 
-U379                      AO22X1          saed90nm_typ_ht 11.980800 
-U380                      AO221X1         saed90nm_typ_ht 12.902400 
-U381                      AO22X1          saed90nm_typ_ht 11.980800 
-U382                      AO221X1         saed90nm_typ_ht 12.902400 
-U383                      AO22X1          saed90nm_typ_ht 11.980800 
-U384                      AO221X1         saed90nm_typ_ht 12.902400 
-U385                      AO22X1          saed90nm_typ_ht 11.980800 
-U386                      AO221X1         saed90nm_typ_ht 12.902400 
-U387                      AO22X1          saed90nm_typ_ht 11.980800 
-U388                      AO221X1         saed90nm_typ_ht 12.902400 
-U389                      AO22X1          saed90nm_typ_ht 11.980800 
-U390                      AO221X1         saed90nm_typ_ht 12.902400 
-U391                      AO22X1          saed90nm_typ_ht 11.980800 
-U392                      AO221X1         saed90nm_typ_ht 12.902400 
-U393                      AO22X1          saed90nm_typ_ht 11.980800 
-U394                      AO221X1         saed90nm_typ_ht 12.902400 
-U395                      AO22X1          saed90nm_typ_ht 11.980800 
-U396                      AO221X1         saed90nm_typ_ht 12.902400 
-U397                      AO22X1          saed90nm_typ_ht 11.980800 
-U398                      AO221X1         saed90nm_typ_ht 12.902400 
-U399                      AO22X1          saed90nm_typ_ht 11.980800 
-U400                      AO221X1         saed90nm_typ_ht 12.902400 
-U401                      AO22X1          saed90nm_typ_ht 11.980800 
-U402                      AO221X1         saed90nm_typ_ht 12.902400 
-U403                      AO22X1          saed90nm_typ_ht 11.980800 
-U404                      AO221X1         saed90nm_typ_ht 12.902400 
-U405                      AO22X1          saed90nm_typ_ht 11.980800 
-U406                      AO221X1         saed90nm_typ_ht 12.902400 
-U407                      AO22X1          saed90nm_typ_ht 11.980800 
-U408                      AO221X1         saed90nm_typ_ht 12.902400 
-U409                      AO22X1          saed90nm_typ_ht 11.980800 
-U410                      AO221X1         saed90nm_typ_ht 12.902400 
-U411                      AO22X1          saed90nm_typ_ht 11.980800 
-U412                      AO221X1         saed90nm_typ_ht 12.902400 
-U413                      AO22X1          saed90nm_typ_ht 11.980800 
-U414                      AO221X1         saed90nm_typ_ht 12.902400 
-U415                      AO22X1          saed90nm_typ_ht 11.980800 
-U416                      AO221X1         saed90nm_typ_ht 12.902400 
-U417                      AO22X1          saed90nm_typ_ht 11.980800 
-U418                      AO221X1         saed90nm_typ_ht 12.902400 
-U419                      AO22X1          saed90nm_typ_ht 11.980800 
-U420                      AO221X1         saed90nm_typ_ht 12.902400 
-U421                      AO22X1          saed90nm_typ_ht 11.980800 
-U422                      AO221X1         saed90nm_typ_ht 12.902400 
-U423                      AO22X1          saed90nm_typ_ht 11.980800 
-U424                      AO221X1         saed90nm_typ_ht 12.902400 
-U425                      AO22X1          saed90nm_typ_ht 11.980800 
-U426                      AO221X1         saed90nm_typ_ht 12.902400 
-U427                      AO22X1          saed90nm_typ_ht 11.980800 
-U428                      AO221X1         saed90nm_typ_ht 12.902400 
-U429                      AO22X1          saed90nm_typ_ht 11.980800 
-U430                      AO221X1         saed90nm_typ_ht 12.902400 
-U431                      AO22X1          saed90nm_typ_ht 11.980800 
-U432                      AO221X1         saed90nm_typ_ht 12.902400 
-U433                      AO22X1          saed90nm_typ_ht 11.980800 
-U434                      AO221X1         saed90nm_typ_ht 12.902400 
-U435                      AO22X1          saed90nm_typ_ht 11.980800 
-U436                      AO221X1         saed90nm_typ_ht 12.902400 
-U437                      AO22X1          saed90nm_typ_ht 11.980800 
-U438                      AO221X1         saed90nm_typ_ht 12.902400 
-U439                      NOR2X0          saed90nm_typ_ht 5.529600  
-U440                      AO21X1          saed90nm_typ_ht 10.137600 
-U441                      NOR2X0          saed90nm_typ_ht 5.529600  
-U442                      AO21X1          saed90nm_typ_ht 10.137600 
-U443                      NOR2X0          saed90nm_typ_ht 5.529600  
-U444                      AO21X1          saed90nm_typ_ht 10.137600 
-U445                      XNOR2X1         saed90nm_typ_ht 13.824000 
-U446                      NOR2X0          saed90nm_typ_ht 5.529600  
-U447                      XOR2X1          saed90nm_typ_ht 13.824000 
-add_57                    BoothMultiplier_DW01_add_1      2590.617627
+P_reg_reg[0]              DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[1]              DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[2]              DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[3]              DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[4]              DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[5]              DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[6]              DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[7]              DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[8]              DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[9]              DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[10]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[11]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[12]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[13]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[14]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[15]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[16]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[17]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[18]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[19]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[20]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[21]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[22]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[23]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[24]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[25]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[26]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[27]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[28]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[29]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[30]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+P_reg_reg[31]             DFFR_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          5.320000  n
+U122                      XOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.596000  
+U123                      NOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U124                      CLKBUF_X1       NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U125                      CLKBUF_X1       NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U126                      OR3_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U127                      AND3_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U128                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U129                      NOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U130                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U131                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U132                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U133                      AND4_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.596000  
+U134                      XOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.596000  
+U135                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U136                      CLKBUF_X1       NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U137                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U138                      CLKBUF_X1       NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U139                      OR2_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U140                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U141                      NOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U142                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U143                      NOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U144                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U145                      NOR3_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U146                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U147                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U148                      NOR3_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U149                      OR2_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U150                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U151                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U152                      NOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U153                      OR2_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U154                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U155                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U156                      NOR3_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U157                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U158                      NOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U159                      NOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U160                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U161                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U162                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U163                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U164                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U165                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U166                      OR2_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U167                      OR2_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U168                      NOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U169                      CLKBUF_X1       NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U170                      OR2_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U171                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U172                      CLKBUF_X1       NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U173                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U174                      CLKBUF_X1       NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U175                      OR2_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U176                      NOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U177                      OR2_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U178                      NOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U179                      CLKBUF_X1       NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U180                      CLKBUF_X1       NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U181                      AND4_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.596000  
+U182                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U183                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U184                      AND3_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U185                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U186                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U187                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U188                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U189                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U190                      CLKBUF_X1       NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U191                      OR2_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U192                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U193                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U194                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U195                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U196                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U197                      NOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U198                      NOR3_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U199                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U200                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U201                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U202                      NAND3_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U203                      NOR4_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U204                      OR2_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U205                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U206                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U207                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U208                      NAND4_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U209                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U210                      AOI21_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U211                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U212                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U213                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U214                      NAND3_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U215                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U216                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U217                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U218                      BUF_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U219                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U220                      NAND3_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U221                      NAND4_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U222                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U223                      OAI21_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U224                      NAND4_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U225                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U226                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U227                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U228                      NOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U229                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U230                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U231                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U232                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U233                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U234                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U235                      NOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U236                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U237                      AOI22_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U238                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U239                      AOI22_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U240                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U241                      AOI22_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U242                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U243                      AOI22_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U244                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U245                      AOI22_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U246                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U247                      AOI22_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U248                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U249                      AOI22_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U250                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U251                      BUF_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U252                      BUF_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U253                      BUF_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U254                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U255                      AOI22_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U256                      NOR4_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U257                      OR4_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.596000  
+U258                      NOR4_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U259                      XOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.596000  
+U260                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U261                      XOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.596000  
+U262                      XOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.596000  
+U263                      XOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.596000  
+U264                      XOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.596000  
+U265                      XOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.596000  
+U266                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U267                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U268                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U269                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U270                      AND4_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.596000  
+U271                      NOR4_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U272                      NOR4_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U273                      NOR4_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U274                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U275                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U276                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U277                      NOR4_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U278                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U279                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U280                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U281                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U282                      AOI21_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U283                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U284                      NAND3_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U285                      NAND3_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U286                      NAND2_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U287                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U288                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U289                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U290                      NAND4_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U291                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U292                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U293                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U294                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U295                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U296                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U297                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U298                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U299                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U300                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U301                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U302                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U303                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U304                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U305                      AND2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U306                      OAI21_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U307                      NOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U308                      NOR4_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U309                      NAND3_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U310                      NOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U311                      NOR2_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.798000  
+U312                      AOI221_X1       NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.596000  
+U313                      NAND4_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U314                      AOI221_X1       NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.596000  
+U315                      NOR3_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U316                      NAND4_X1        NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.330000  
+U317                      NOR3_X1         NangateOpenCellLibrary_ss0p95vn40c
+                                                          1.064000  
+U318                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+U319                      INV_X1          NangateOpenCellLibrary_ss0p95vn40c
+                                                          0.532000  
+add_0_root_sub_0_root_sub_44
+                          FP_MULTIPLIER_DW01_add_0        32.452000 BO, h
+add_46                    FP_MULTIPLIER_DW01_inc_0        18.088000 BO, h
+mult_36                   FP_MULTIPLIER_DW02_mult_0       2908.976006
                                                                     BO, h
-count_reg[0]              DFFASX1         saed90nm_typ_ht 31.334400 n
-count_reg[1]              DFFASX1         saed90nm_typ_ht 31.334400 n
-count_reg[2]              DFFASX1         saed90nm_typ_ht 31.334400 n
-count_reg[3]              DFFASX1         saed90nm_typ_ht 31.334400 n
-count_reg[4]              DFFASX1         saed90nm_typ_ht 31.334400 n
-count_reg[5]              DFFARX1         saed90nm_typ_ht 32.256001 n
-sub_61                    BoothMultiplier_DW01_sub_1      2823.782443
+sll_40                    FP_MULTIPLIER_DW01_ash_0        416.555997
                                                                     BO, h
 --------------------------------------------------------------------------------
-Total 436 cells                                           12846.182583
+Total 234 cells                                           3738.896009
 1

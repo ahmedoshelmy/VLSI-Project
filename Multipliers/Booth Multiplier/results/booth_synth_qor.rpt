@@ -1,0 +1,81 @@
+ 
+****************************************
+Report : qor
+Design : BoothMultiplier
+Version: G-2012.06-SP2
+Date   : Sat Dec 24 21:38:34 2016
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:              50.00
+  Critical Path Length:          2.55
+  Critical Path Slack:           0.02
+  Critical Path Clk Period:      2.60
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'oClk'
+  -----------------------------------
+  Levels of Logic:               0.00
+  Critical Path Length:          0.14
+  Critical Path Slack:           0.02
+  Critical Path Clk Period:     86.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          2
+  Hierarchical Port Count:        196
+  Leaf Cell Count:                809
+  Buf/Inv Cell Count:             133
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:       642
+  Sequential Cell Count:          167
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:      721.125997
+  Noncombinational Area:   837.368015
+  Buf/Inv Area:             88.311999
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:              1558.494012
+  Design Area:            1558.494012
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:           942
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: localhost.localdomain
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.15
+  Logic Optimization:                  0.53
+  Mapping Optimization:                0.90
+  -----------------------------------------
+  Overall Compile Time:                1.89
+  Overall Compile Wall Clock Time:     2.32
+
+1

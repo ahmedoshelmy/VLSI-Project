@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : BoothMultiplier
+Version: G-2012.06-SP2
+Date   : Sat Dec 24 21:38:34 2016
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Clock port 'clk' is assigned input delay relative to clock 'oClk'. (TIM-111)
+Warning: Clock port 'clk' is assigned input delay relative to clock 'oClk'. (TIM-111)
+Library(s) Used:
+
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
+
+Number of ports:                          132
+Number of nets:                           646
+Number of cells:                          473
+Number of combinational cells:            304
+Number of sequential cells:               167
+Number of macros:                           0
+Number of buf/inv:                         80
+Number of references:                      20
+
+Combinational area:        721.125997
+Buf/Inv area:               88.311999
+Noncombinational area:     837.368015
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:          1558.494012
+Total area:                 undefined
+1

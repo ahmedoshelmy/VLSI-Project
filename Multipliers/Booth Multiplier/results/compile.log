@@ -1,0 +1,128 @@
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | G-2012.06-DWBB_201206.2 |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+
+Information: There are 1 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'BoothMultiplier'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Warning: Clock port 'clk' is assigned input delay relative to clock 'oClk'. (TIM-111)
+Warning: Clock port 'clk' is assigned input delay relative to clock 'oClk'. (TIM-111)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'BoothMultiplier_DW01_sub_0'
+  Processing 'BoothMultiplier_DW01_add_0'
+  Processing 'BoothMultiplier_DW01_dec_0'
+  Processing 'BoothMultiplier_DW01_cmp2_0'
+Warning: Clock port 'clk' is assigned input delay relative to clock 'oClk'. (TIM-111)
+Warning: Clock port 'clk' is assigned input delay relative to clock 'oClk'. (TIM-111)
+Warning: Clock port 'clk' is assigned input delay relative to clock 'oClk'. (TIM-111)
+Warning: Clock port 'clk' is assigned input delay relative to clock 'oClk'. (TIM-111)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+Warning: Clock port 'clk' is assigned input delay relative to clock 'oClk'. (TIM-111)
+Warning: Clock port 'clk' is assigned input delay relative to clock 'oClk'. (TIM-111)
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:01    1668.1      0.24       0.7       0.0                          
+    0:00:01    1668.1      0.24       0.7       0.0                          
+    0:00:01    1668.1      0.24       0.7       0.0                          
+    0:00:01    1668.1      0.24       0.7       0.0                          
+    0:00:01    1668.1      0.24       0.7       0.0                          
+    0:00:01    1668.1      0.24       0.7       0.0                          
+    0:00:01    1448.6      0.22       0.6       0.0                          
+    0:00:01    1455.0      0.20       0.5       0.0                          
+    0:00:01    1457.9      0.18       0.5       0.0                          
+    0:00:02    1462.5      0.14       0.4       0.0                          
+    0:00:02    1464.6      0.14       0.4       0.0                          
+    0:00:02    1468.6      0.14       0.4       0.0                          
+    0:00:02    1474.4      0.13       0.3       0.0                          
+    0:00:02    1477.1      0.12       0.3       0.0                          
+    0:00:02    1482.7      0.11       0.3       0.0                          
+    0:00:02    1489.3      0.10       0.3       0.0                          
+    0:00:02    1494.4      0.09       0.2       0.0                          
+    0:00:02    1494.4      0.09       0.2       0.0                          
+    0:00:02    1494.4      0.09       0.2       0.0                          
+    0:00:02    1494.4      0.09       0.2       0.0                          
+    0:00:02    1494.4      0.09       0.2       0.0                          
+    0:00:02    1494.4      0.09       0.2       0.0                          
+    0:00:02    1494.4      0.09       0.2       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02    1494.4      0.09       0.2       0.0                          
+    0:00:02    1521.0      0.07       0.2      41.2 Acc_reg[31]/D            
+    0:00:02    1532.2      0.06       0.1      41.2 Acc_reg[31]/D            
+    0:00:02    1550.5      0.04       0.1      41.2 Acc_reg[31]/D            
+    0:00:02    1566.5      0.02       0.0      41.2 Acc_reg[31]/D            
+    0:00:02    1576.8      0.00       0.0      41.2 Acc_reg[31]/D            
+    0:00:02    1583.2      0.00       0.0      41.2 Acc_reg[31]/D            
+    0:00:02    1583.2      0.00       0.0      41.2                          
+    0:00:02    1583.2      0.00       0.0      41.2                          
+
+
+  Beginning Design Rule Fixing  (max_capacitance)
+  ----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02    1583.2      0.00       0.0      41.2                          
+    0:00:02    1566.7      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+   ELAPSED            WORST NEG TOTAL NEG  DESIGN                            
+    TIME      AREA      SLACK     SLACK   RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:02    1566.7      0.00       0.0       0.0                          
+    0:00:02    1566.7      0.00       0.0       0.0                          
+    0:00:02    1566.7      0.00       0.0       0.0                          
+    0:00:02    1535.1      0.05       0.1       0.0                          
+    0:00:02    1533.5      0.05       0.1       0.0                          
+    0:00:02    1532.4      0.05       0.1       0.0                          
+    0:00:02    1531.9      0.05       0.1       0.0                          
+    0:00:02    1530.6      0.05       0.1       0.0                          
+    0:00:02    1530.6      0.05       0.1       0.0                          
+    0:00:02    1543.3      0.02       0.0       0.0 Acc_reg[31]/D            
+    0:00:02    1558.8      0.00       0.0       0.0 Acc_reg[31]/D            
+    0:00:02    1558.8      0.00       0.0       0.0                          
+    0:00:02    1558.8      0.00       0.0       0.0                          
+    0:00:02    1558.8      0.00       0.0       0.0                          
+    0:00:02    1558.5      0.00       0.0       0.0                          
+    0:00:02    1558.5      0.00       0.0       0.0                          
+    0:00:02    1558.5      0.00       0.0       0.0                          
+    0:00:02    1558.5      0.00       0.0       0.0                          
+    0:00:02    1558.5      0.00       0.0       0.0                          
+    0:00:02    1558.5      0.00       0.0       0.0                          
+    0:00:02    1558.5      0.00       0.0       0.0                          
+    0:00:02    1558.5      0.00       0.0       0.0                          
+Loading db file '/home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db'
+
+  Optimization Complete
+  ---------------------
+1

@@ -1,3 +1,4 @@
+Loading db file '/home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db'
 Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
 Warning: Design has unannotated primary inputs. (PWR-414)
 Warning: Design has unannotated sequential cell outputs. (PWR-415)
@@ -5,44 +6,40 @@ Warning: Design has unannotated sequential cell outputs. (PWR-415)
 ****************************************
 Report : power
         -analysis_effort low
-Design : VerilogMultiplier
+Design : BoothMultiplier
 Version: G-2012.06-SP2
-Date   : Thu Jun 23 21:05:35 2016
+Date   : Sat Dec 24 21:38:34 2016
 ****************************************
 
 
 Library(s) Used:
 
-    saed90nm_typ_ht (File: /home/ahesham/Desktop/VerilogMultiplier/ref/models/saed90nm_typ_ht.db)
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
 
 
-Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
-Wire Load Model Mode: enclosed
+Operating Conditions: worst_low   Library: NangateOpenCellLibrary_ss0p95vn40c
+Wire Load Model Mode: top
 
 Design        Wire Load Model            Library
 ------------------------------------------------
-VerilogMultiplier      70000             saed90nm_typ_ht
-VerilogMultiplier_DW02_mult_0
-                       70000             saed90nm_typ_ht
-VerilogMultiplier_DW01_add_0
-                       8000              saed90nm_typ_ht
+BoothMultiplier        5K_hvratio_1_1    NangateOpenCellLibrary_ss0p95vn40c
 
 
-Global Operating Voltage = 1.2  
+Global Operating Voltage = 0.95 
 Power-specific unit information :
     Voltage Units = 1V
     Capacitance Units = 1.000000ff
     Time Units = 1ns
     Dynamic Power Units = 1uW    (derived from V,C,T units)
-    Leakage Power Units = 1pW
+    Leakage Power Units = 1nW
 
 
-  Cell Internal Power  = 206.6310 uW   (81%)
-  Net Switching Power  =  47.9787 uW   (19%)
+  Cell Internal Power  = 238.6707 uW   (71%)
+  Net Switching Power  =  97.4529 uW   (29%)
                          ---------
-Total Dynamic Power    = 254.6097 uW  (100%)
+Total Dynamic Power    = 336.1235 uW  (100%)
 
-Cell Leakage Power     = 768.6636 uW
+Cell Leakage Power     =   6.6022 uW
 
 
                  Internal         Switching           Leakage            Total
@@ -52,9 +49,9 @@ io_pad             0.0000            0.0000            0.0000            0.0000 
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
-register           1.6481            1.9192        5.2540e+07           56.1078  (   5.48%)
-sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational    204.9835           46.0595        7.1612e+08          967.1633  (  94.52%)
+register         169.2601           33.5692        2.6522e+03          205.4814  (  59.96%)
+sequential         3.6513            2.6612          272.3055            6.5848  (   1.92%)
+combinational     65.7593           61.2225        3.6777e+03          130.6595  (  38.12%)
 --------------------------------------------------------------------------------------------------
-Total            206.6316 uW        47.9787 uW     7.6866e+08 pW     1.0233e+03 uW
+Total            238.6707 uW        97.4529 uW     6.6022e+03 nW       342.7257 uW
 1

@@ -1,22 +1,25 @@
  
 ****************************************
 Report : resources
-Design : BoothMultiplier
+Design : FP_MULTIPLIER
 Version: G-2012.06-SP2
-Date   : Sat Dec 24 21:05:29 2016
+Date   : Sat Dec 24 22:33:31 2016
 ****************************************
 
-Resource Sharing Report for design BoothMultiplier in file
-        /home/ahesham/Desktop/FP_MULT/source/Booth.v
+Resource Sharing Report for design FP_MULTIPLIER in file
+        ./source/FP_MULTIPLIER.v
 
 ===============================================================================
 |          |              |            | Contained     |                      |
 | Resource | Module       | Parameters | Resources     | Contained Operations |
 ===============================================================================
-| r60      | DW01_cmp2    | width=6    |               | gt_40                |
-| r62      | DW01_dec     | width=6    |               | sub_51               |
-| r64      | DW01_add     | width=32   |               | add_57               |
-| r66      | DW01_sub     | width=32   |               | sub_61               |
+| r73      | DW01_ash     | A_width=47 |               | sll_40               |
+|          |              | SH_width=5 |               |                      |
+| r79      | DW01_inc     | width=8    |               | add_46               |
+| r177     | DW01_sub     | width=8    |               | sub_1_root_sub_0_root_sub_44 |
+| r179     | DW01_add     | width=8    |               | add_0_root_sub_0_root_sub_44 |
+| r271     | DW02_mult    | A_width=24 |               | mult_36              |
+|          |              | B_width=24 |               |                      |
 ===============================================================================
 
 
@@ -25,8 +28,11 @@ Implementation Report
 |                    |                  | Current            | Set            |
 | Cell               | Module           | Implementation     | Implementation |
 ===============================================================================
-| add_57             | DW01_add         | cla                |                |
-| sub_61             | DW01_sub         | cla                |                |
+| mult_36            | DW02_mult        | csa                |                |
+| add_0_root_sub_0_root_sub_44          |                    |                |
+|                    | DW01_add         | rpl                |                |
+| sll_40             | DW01_ash         | mx2                |                |
+| add_46             | DW01_inc         | rpl                |                |
 ===============================================================================
 
 
