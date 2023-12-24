@@ -1,0 +1,18 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 100
+Design : WallaceTreeMultiplier
+Version: G-2012.06-SP2
+Date   : Sat Dec 24 13:06:53 2016
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+No paths.
+
+1

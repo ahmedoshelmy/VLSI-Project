@@ -5,23 +5,23 @@ module BoothMultiplier #(
   input oClk,
   input rst,
   input oRst,
-  input signed [N-1:0] M,
-  input signed [N-1:0] Q,
-  output reg signed [2*N-1:0] P
+  input [N-1:0] M,
+  input [N-1:0] Q,
+  output reg [2*N-1:0] P
 );
 
   // Internal registers
-  reg signed [N-1:0] Q_reg;
-  reg signed [N-1:0] Acc;
-  reg signed [N-1:0] M_reg;
-  reg signed Q_prev;
+  reg [N-1:0] Q_reg;
+  reg [N-1:0] Acc;
+  reg [N-1:0] M_reg;
+  reg Q_prev;
   reg [5:0] count;
-  wire signed [2*N:0] case_add;
-  wire signed [2*N:0] case_add_shifted;
-  wire signed [2*N:0] case_sub;
-  wire signed [2*N:0] case_sub_shifted;
+  wire [2*N:0] case_add;
+  wire [2*N:0] case_add_shifted;
+  wire [2*N:0] case_sub;
+  wire [2*N:0] case_sub_shifted;
 
-  always @(posedge oClk,posedge oRst) begin
+  always @(posedge oClk) begin
     if (oRst) begin
       P <= 0;
     end else begin
@@ -29,7 +29,7 @@ module BoothMultiplier #(
     end
   end
 
-  always @(posedge clk or posedge rst) begin
+  always @(posedge clk) begin
     if (rst) begin
       Q_reg <= Q;
       M_reg <= M;

@@ -36,8 +36,8 @@ module WallaceTreeMultiplier (
     
     wire [63:0] p[63:0];
     wire [63:0] SignedExtendedA , SignedExtendedB;
-    assign SignedExtendedA = {{32{A[31]}} , A};
-    assign SignedExtendedB = {{32{B[31]}} , B};
+    assign SignedExtendedA = {{32{A_reg[31]}} , A_reg};
+    assign SignedExtendedB = {{32{B_reg[31]}} , B_reg};
 
     genvar i; 
     generate

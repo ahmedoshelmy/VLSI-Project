@@ -10,7 +10,7 @@ module regN #(
   output reg [N-1:0] out;
   input [N-1:0] inp;
   always @(posedge clk) begin
-    if (reset) out <= 'b0;
+    if (reset) out <= 1'b0;
     else out <= inp;
   end
 endmodule

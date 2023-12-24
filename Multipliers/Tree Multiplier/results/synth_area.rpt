@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : WallaceTreeMultiplier
+Version: G-2012.06-SP2
+Date   : Sat Dec 24 13:06:52 2016
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'WallaceTreeMultiplier' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/ahesham/Desktop/MultiplierTree/ref/models/saed90nm_typ_ht.db)
+
+Number of ports:                          130
+Number of nets:                          9846
+Number of cells:                         1780
+Number of combinational cells:           1589
+Number of sequential cells:               128
+Number of macros:                           0
+Number of buf/inv:                        437
+Number of references:                      74
+
+Combinational area:       170281.268916
+Buf/Inv area:             4653.158434
+Noncombinational area:    3191.500761
+Net Interconnect area:    19846.712165 
+
+Total cell area:          173472.769677
+Total area:               193319.481842
+1

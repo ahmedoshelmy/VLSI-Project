@@ -1,0 +1,170 @@
+ 
+****************************************
+Report : cell
+Design : VerilogMultiplier
+Version: G-2012.06-SP2
+Date   : Thu Jun 23 21:05:35 2016
+****************************************
+
+Attributes:
+   BO - reference allows boundary optimization
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+A_reg_reg[0]              DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[1]              DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[2]              DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[3]              DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[4]              DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[5]              DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[6]              DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[7]              DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[8]              DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[9]              DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[10]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[11]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[12]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[13]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[14]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[15]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[16]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[17]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[18]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[19]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[20]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[21]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[22]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[23]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[24]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[25]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[26]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[27]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[28]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[29]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[30]             DFFARX1         saed90nm_typ_ht 32.256001 n
+A_reg_reg[31]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[0]              DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[1]              DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[2]              DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[3]              DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[4]              DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[5]              DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[6]              DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[7]              DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[8]              DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[9]              DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[10]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[11]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[12]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[13]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[14]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[15]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[16]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[17]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[18]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[19]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[20]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[21]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[22]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[23]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[24]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[25]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[26]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[27]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[28]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[29]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[30]             DFFARX1         saed90nm_typ_ht 32.256001 n
+B_reg_reg[31]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[0]              DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[1]              DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[2]              DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[3]              DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[4]              DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[5]              DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[6]              DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[7]              DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[8]              DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[9]              DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[10]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[11]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[12]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[13]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[14]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[15]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[16]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[17]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[18]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[19]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[20]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[21]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[22]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[23]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[24]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[25]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[26]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[27]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[28]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[29]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[30]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[31]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[32]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[33]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[34]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[35]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[36]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[37]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[38]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[39]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[40]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[41]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[42]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[43]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[44]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[45]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[46]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[47]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[48]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[49]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[50]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[51]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[52]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[53]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[54]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[55]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[56]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[57]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[58]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[59]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[60]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[61]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[62]             DFFARX1         saed90nm_typ_ht 32.256001 n
+P_reg_reg[63]             DFFARX1         saed90nm_typ_ht 32.256001 n
+U4                        NBUFFX2         saed90nm_typ_ht 5.529600  
+U5                        NBUFFX2         saed90nm_typ_ht 5.529600  
+U6                        NBUFFX2         saed90nm_typ_ht 5.529600  
+U7                        NBUFFX2         saed90nm_typ_ht 5.529600  
+U8                        NBUFFX2         saed90nm_typ_ht 5.529600  
+U9                        NBUFFX2         saed90nm_typ_ht 5.529600  
+U10                       NBUFFX2         saed90nm_typ_ht 5.529600  
+U11                       NBUFFX2         saed90nm_typ_ht 5.529600  
+U12                       NBUFFX2         saed90nm_typ_ht 5.529600  
+U13                       NBUFFX2         saed90nm_typ_ht 5.529600  
+U14                       NBUFFX2         saed90nm_typ_ht 5.529600  
+U15                       NBUFFX2         saed90nm_typ_ht 5.529600  
+U16                       NBUFFX2         saed90nm_typ_ht 5.529600  
+U17                       NBUFFX2         saed90nm_typ_ht 5.529600  
+U18                       NBUFFX2         saed90nm_typ_ht 5.529600  
+U19                       NBUFFX2         saed90nm_typ_ht 5.529600  
+U20                       NBUFFX2         saed90nm_typ_ht 5.529600  
+U21                       NBUFFX2         saed90nm_typ_ht 5.529600  
+U22                       INVX0           saed90nm_typ_ht 5.529600  
+mult_21                   VerilogMultiplier_DW02_mult_0   50120.294854
+                                                                    BO, h
+--------------------------------------------------------------------------------
+Total 148 cells                                           54354.125323
+1

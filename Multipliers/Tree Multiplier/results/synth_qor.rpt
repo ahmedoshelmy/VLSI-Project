@@ -1,0 +1,68 @@
+ 
+****************************************
+Report : qor
+Design : WallaceTreeMultiplier
+Version: G-2012.06-SP2
+Date   : Sat Dec 24 13:06:52 2016
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:             116.00
+  Critical Path Length:         31.88
+  Critical Path Slack:           0.00
+  Critical Path Clk Period:     32.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:         63
+  Hierarchical Port Count:      20034
+  Leaf Cell Count:              13938
+  Buf/Inv Cell Count:             594
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:     13810
+  Sequential Cell Count:          128
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:   170281.268916
+  Noncombinational Area:  3191.500761
+  Buf/Inv Area:           4653.158434
+  Net Area:              19846.712165
+  -----------------------------------
+  Cell Area:            173472.769677
+  Design Area:          193319.481842
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:         14220
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: localhost.localdomain
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    1.62
+  Logic Optimization:                  6.21
+  Mapping Optimization:               12.88
+  -----------------------------------------
+  Overall Compile Time:               23.05
+  Overall Compile Wall Clock Time:    23.60
+
+1

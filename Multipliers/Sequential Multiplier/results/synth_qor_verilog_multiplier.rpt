@@ -1,0 +1,68 @@
+ 
+****************************************
+Report : qor
+Design : VerilogMultiplier
+Version: G-2012.06-SP2
+Date   : Thu Jun 23 21:05:35 2016
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:              70.00
+  Critical Path Length:         59.83
+  Critical Path Slack:           0.00
+  Critical Path Clk Period:     60.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          2
+  Hierarchical Port Count:        317
+  Leaf Cell Count:               5158
+  Buf/Inv Cell Count:             311
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:      5030
+  Sequential Cell Count:          128
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:    50225.357257
+  Noncombinational Area:  4128.768066
+  Buf/Inv Area:           2477.260813
+  Net Area:               3228.563659
+  -----------------------------------
+  Cell Area:             54354.125323
+  Design Area:           57582.688983
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          5608
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: localhost.localdomain
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    1.50
+  Logic Optimization:                  1.68
+  Mapping Optimization:                8.77
+  -----------------------------------------
+  Overall Compile Time:               12.52
+  Overall Compile Wall Clock Time:    12.93
+
+1
