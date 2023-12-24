@@ -1,0 +1,40 @@
+ 
+****************************************
+Report : resources
+Design : SeqMult
+Version: G-2012.06-SP2
+Date   : Sat Dec 24 00:09:23 2016
+****************************************
+
+Resource Sharing Report for design SeqMult in file ./source/SeqMult.v
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r70      | DW01_sub     | width=32   |               | sub_43_S2            |
+| r72      | DW01_sub     | width=32   |               | sub_46_S2            |
+| r76      | DW01_sub     | width=64   |               | sub_59_S2            |
+| r78      | DW01_inc     | width=32   |               | add_60               |
+| r176     | DW02_mult    | A_width=32 |               | mult_add_51_S2_aco   |
+|          |              | B_width=1  |               |                      |
+| r178     | DW01_add     | width=32   |               | add_51_S2_aco        |
+===============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| sub_43_S2          | DW01_sub         | cla                |                |
+| add_51_S2_aco      | DW01_add         | cla                |                |
+| sub_59_S2          | DW01_sub         | cla                |                |
+| add_60             | DW01_inc         | cla                |                |
+| sub_46_S2          | DW01_sub         | cla                |                |
+| mult_add_51_S2_aco | DW02_mult        | csa                |                |
+===============================================================================
+
+
+No multiplexors to report
+1

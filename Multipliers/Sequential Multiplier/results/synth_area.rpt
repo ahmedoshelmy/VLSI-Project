@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : SeqMult
+Version: G-2012.06-SP2
+Date   : Sat Dec 24 00:09:23 2016
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/ahesham/Desktop/SequentialM/ref/models/saed90nm_typ_ht.db)
+
+Number of ports:                          131
+Number of nets:                          1454
+Number of cells:                         1018
+Number of combinational cells:            693
+Number of sequential cells:               319
+Number of macros:                           0
+Number of buf/inv:                        138
+Number of references:                      31
+
+Combinational area:       14275.584125
+Buf/Inv area:             2325.196856
+Noncombinational area:    8173.670328
+Net Interconnect area:    1396.157227  
+
+Total cell area:          22449.254453
+Total area:               23845.411680
+1

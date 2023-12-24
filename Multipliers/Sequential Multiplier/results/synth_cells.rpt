@@ -1,0 +1,1045 @@
+ 
+****************************************
+Report : cell
+Design : SeqMult
+Version: G-2012.06-SP2
+Date   : Sat Dec 24 00:09:23 2016
+****************************************
+
+Attributes:
+   BO - reference allows boundary optimization
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+A_reg_reg[0]              DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[1]              DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[2]              DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[3]              DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[4]              DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[5]              DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[6]              DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[7]              DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[8]              DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[9]              DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[10]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[11]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[12]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[13]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[14]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[15]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[16]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[17]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[18]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[19]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[20]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[21]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[22]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[23]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[24]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[25]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[26]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[27]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[28]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[29]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[30]             DFFX1           saed90nm_typ_ht 24.883200 n
+A_reg_reg[31]             DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[0]        DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[1]        DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[2]        DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[3]        DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[4]        DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[5]        DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[6]        DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[7]        DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[8]        DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[9]        DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[10]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[11]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[12]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[13]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[14]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[15]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[16]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[17]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[18]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[19]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[20]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[21]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[22]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[23]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[24]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[25]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[26]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[27]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[28]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[29]       DFFX1           saed90nm_typ_ht 24.883200 n
+Accumulator_reg[30]       DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[0]              DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[1]              DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[2]              DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[3]              DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[4]              DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[5]              DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[6]              DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[7]              DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[8]              DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[9]              DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[10]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[11]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[12]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[13]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[14]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[15]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[16]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[17]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[18]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[19]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[20]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[21]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[22]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[23]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[24]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[25]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[26]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[27]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[28]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[29]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[30]             DFFX1           saed90nm_typ_ht 24.883200 n
+B_reg_reg[31]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[0]                  DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[1]                  DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[2]                  DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[3]                  DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[4]                  DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[5]                  DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[6]                  DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[7]                  DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[8]                  DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[9]                  DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[10]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[11]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[12]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[13]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[14]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[15]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[16]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[17]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[18]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[19]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[20]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[21]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[22]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[23]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[24]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[25]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[26]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[27]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[28]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[29]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[30]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[31]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[32]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[33]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[34]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[35]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[36]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[37]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[38]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[39]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[40]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[41]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[42]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[43]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[44]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[45]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[46]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[47]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[48]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[49]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[50]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[51]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[52]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[53]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[54]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[55]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[56]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[57]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[58]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[59]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[60]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[61]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[62]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg[63]                 DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[0]              DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[1]              DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[2]              DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[3]              DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[4]              DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[5]              DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[6]              DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[7]              DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[8]              DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[9]              DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[10]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[11]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[12]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[13]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[14]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[15]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[16]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[17]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[18]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[19]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[20]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[21]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[22]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[23]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[24]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[25]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[26]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[27]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[28]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[29]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[30]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[31]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[32]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[33]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[34]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[35]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[36]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[37]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[38]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[39]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[40]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[41]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[42]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[43]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[44]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[45]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[46]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[47]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[48]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[49]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[50]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[51]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[52]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[53]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[54]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[55]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[56]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[57]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[58]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[59]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[60]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[61]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[62]             DFFX1           saed90nm_typ_ht 24.883200 n
+P_reg_reg[63]             DFFX1           saed90nm_typ_ht 24.883200 n
+U641                      OR2X1           saed90nm_typ_ht 7.372800  
+U642                      NOR2X0          saed90nm_typ_ht 5.529600  
+U643                      AND2X1          saed90nm_typ_ht 7.372800  
+U644                      AND3X1          saed90nm_typ_ht 8.294400  
+U645                      INVX0           saed90nm_typ_ht 5.529600  
+U646                      NBUFFX2         saed90nm_typ_ht 5.529600  
+U647                      NBUFFX2         saed90nm_typ_ht 5.529600  
+U648                      DELLN1X2        saed90nm_typ_ht 14.745600 
+U649                      NOR2X0          saed90nm_typ_ht 5.529600  
+U650                      NBUFFX2         saed90nm_typ_ht 5.529600  
+U651                      NBUFFX2         saed90nm_typ_ht 5.529600  
+U652                      NBUFFX2         saed90nm_typ_ht 5.529600  
+U653                      NBUFFX2         saed90nm_typ_ht 5.529600  
+U654                      NAND2X1         saed90nm_typ_ht 5.529600  
+U655                      NAND2X1         saed90nm_typ_ht 5.529600  
+U656                      NAND2X1         saed90nm_typ_ht 5.529600  
+U657                      NAND2X1         saed90nm_typ_ht 5.529600  
+U658                      MUX21X1         saed90nm_typ_ht 11.059200 
+U659                      MUX21X1         saed90nm_typ_ht 11.059200 
+U660                      MUX21X1         saed90nm_typ_ht 11.059200 
+U661                      MUX21X1         saed90nm_typ_ht 11.059200 
+U662                      MUX21X1         saed90nm_typ_ht 11.059200 
+U663                      MUX21X1         saed90nm_typ_ht 11.059200 
+U664                      MUX21X1         saed90nm_typ_ht 11.059200 
+U665                      MUX21X1         saed90nm_typ_ht 11.059200 
+U666                      MUX21X1         saed90nm_typ_ht 11.059200 
+U667                      MUX21X1         saed90nm_typ_ht 11.059200 
+U668                      MUX21X1         saed90nm_typ_ht 11.059200 
+U669                      MUX21X1         saed90nm_typ_ht 11.059200 
+U670                      INVX0           saed90nm_typ_ht 5.529600  
+U671                      AO222X1         saed90nm_typ_ht 14.745600 
+U672                      AO222X1         saed90nm_typ_ht 14.745600 
+U673                      AND2X1          saed90nm_typ_ht 7.372800  
+U674                      AND2X1          saed90nm_typ_ht 7.372800  
+U675                      AND2X1          saed90nm_typ_ht 7.372800  
+U676                      AND4X1          saed90nm_typ_ht 10.137600 
+U677                      OR2X1           saed90nm_typ_ht 7.372800  
+U678                      AND2X1          saed90nm_typ_ht 7.372800  
+U679                      AND2X1          saed90nm_typ_ht 7.372800  
+U680                      AND2X1          saed90nm_typ_ht 7.372800  
+U681                      AND2X1          saed90nm_typ_ht 7.372800  
+U682                      AND2X1          saed90nm_typ_ht 7.372800  
+U683                      NOR2X0          saed90nm_typ_ht 5.529600  
+U684                      AND4X1          saed90nm_typ_ht 10.137600 
+U685                      INVX0           saed90nm_typ_ht 5.529600  
+U686                      NAND2X0         saed90nm_typ_ht 5.529600  
+U687                      NOR4X0          saed90nm_typ_ht 9.216000  
+U688                      INVX0           saed90nm_typ_ht 5.529600  
+U689                      NAND4X0         saed90nm_typ_ht 8.294400  
+U690                      INVX0           saed90nm_typ_ht 5.529600  
+U691                      INVX0           saed90nm_typ_ht 5.529600  
+U692                      INVX0           saed90nm_typ_ht 5.529600  
+U693                      INVX0           saed90nm_typ_ht 5.529600  
+U694                      INVX0           saed90nm_typ_ht 5.529600  
+U695                      INVX0           saed90nm_typ_ht 5.529600  
+U696                      INVX0           saed90nm_typ_ht 5.529600  
+U697                      INVX0           saed90nm_typ_ht 5.529600  
+U698                      INVX0           saed90nm_typ_ht 5.529600  
+U699                      INVX0           saed90nm_typ_ht 5.529600  
+U700                      INVX0           saed90nm_typ_ht 5.529600  
+U701                      INVX0           saed90nm_typ_ht 5.529600  
+U702                      INVX0           saed90nm_typ_ht 5.529600  
+U703                      INVX0           saed90nm_typ_ht 5.529600  
+U704                      INVX0           saed90nm_typ_ht 5.529600  
+U705                      OR2X1           saed90nm_typ_ht 7.372800  
+U706                      AO221X1         saed90nm_typ_ht 12.902400 
+U707                      AND2X2          saed90nm_typ_ht 8.294400  
+U708                      AND3X1          saed90nm_typ_ht 8.294400  
+U709                      AND2X2          saed90nm_typ_ht 8.294400  
+U710                      NAND4X0         saed90nm_typ_ht 8.294400  
+U711                      AO222X1         saed90nm_typ_ht 14.745600 
+U712                      AND3X1          saed90nm_typ_ht 8.294400  
+U713                      OR2X2           saed90nm_typ_ht 9.216000  
+U714                      AND4X1          saed90nm_typ_ht 10.137600 
+U715                      INVX0           saed90nm_typ_ht 5.529600  
+U716                      AND4X1          saed90nm_typ_ht 10.137600 
+U717                      AO22X1          saed90nm_typ_ht 11.980800 
+U718                      DELLN1X2        saed90nm_typ_ht 14.745600 
+U719                      OR2X4           saed90nm_typ_ht 11.980800 
+U720                      DELLN1X2        saed90nm_typ_ht 14.745600 
+U721                      AND3X1          saed90nm_typ_ht 8.294400  
+U722                      NAND4X0         saed90nm_typ_ht 8.294400  
+U723                      INVX0           saed90nm_typ_ht 5.529600  
+U724                      AND3X1          saed90nm_typ_ht 8.294400  
+U725                      INVX0           saed90nm_typ_ht 5.529600  
+U726                      INVX0           saed90nm_typ_ht 5.529600  
+U727                      DELLN1X2        saed90nm_typ_ht 14.745600 
+U728                      INVX0           saed90nm_typ_ht 5.529600  
+U729                      INVX0           saed90nm_typ_ht 5.529600  
+U730                      INVX0           saed90nm_typ_ht 5.529600  
+U731                      INVX0           saed90nm_typ_ht 5.529600  
+U732                      INVX0           saed90nm_typ_ht 5.529600  
+U733                      INVX0           saed90nm_typ_ht 5.529600  
+U734                      NAND2X0         saed90nm_typ_ht 5.529600  
+U735                      NAND2X0         saed90nm_typ_ht 5.529600  
+U736                      NAND2X0         saed90nm_typ_ht 5.529600  
+U737                      NAND2X0         saed90nm_typ_ht 5.529600  
+U738                      NAND3X0         saed90nm_typ_ht 7.372800  
+U739                      INVX0           saed90nm_typ_ht 5.529600  
+U740                      INVX0           saed90nm_typ_ht 5.529600  
+U741                      NAND2X0         saed90nm_typ_ht 5.529600  
+U742                      AND2X1          saed90nm_typ_ht 7.372800  
+U743                      NAND2X0         saed90nm_typ_ht 5.529600  
+U744                      NAND2X0         saed90nm_typ_ht 5.529600  
+U745                      NAND2X0         saed90nm_typ_ht 5.529600  
+U746                      NAND2X0         saed90nm_typ_ht 5.529600  
+U747                      NAND2X0         saed90nm_typ_ht 5.529600  
+U748                      NAND3X0         saed90nm_typ_ht 7.372800  
+U749                      NBUFFX2         saed90nm_typ_ht 5.529600  
+U750                      NAND3X0         saed90nm_typ_ht 7.372800  
+U751                      DELLN2X2        saed90nm_typ_ht 15.667200 
+U752                      NAND2X0         saed90nm_typ_ht 5.529600  
+U753                      NAND2X0         saed90nm_typ_ht 5.529600  
+U754                      AND2X1          saed90nm_typ_ht 7.372800  
+U755                      AND2X1          saed90nm_typ_ht 7.372800  
+U756                      NAND2X0         saed90nm_typ_ht 5.529600  
+U757                      NAND2X0         saed90nm_typ_ht 5.529600  
+U758                      NAND3X0         saed90nm_typ_ht 7.372800  
+U759                      NAND2X0         saed90nm_typ_ht 5.529600  
+U760                      NAND2X0         saed90nm_typ_ht 5.529600  
+U761                      NAND3X0         saed90nm_typ_ht 7.372800  
+U762                      NBUFFX2         saed90nm_typ_ht 5.529600  
+U763                      NAND2X0         saed90nm_typ_ht 5.529600  
+U764                      NAND2X0         saed90nm_typ_ht 5.529600  
+U765                      NAND2X0         saed90nm_typ_ht 5.529600  
+U766                      NAND2X0         saed90nm_typ_ht 5.529600  
+U767                      NAND2X0         saed90nm_typ_ht 5.529600  
+U768                      NAND2X0         saed90nm_typ_ht 5.529600  
+U769                      NAND3X0         saed90nm_typ_ht 7.372800  
+U770                      NAND2X0         saed90nm_typ_ht 5.529600  
+U771                      NAND2X0         saed90nm_typ_ht 5.529600  
+U772                      NAND3X0         saed90nm_typ_ht 7.372800  
+U773                      NBUFFX2         saed90nm_typ_ht 5.529600  
+U774                      NBUFFX2         saed90nm_typ_ht 5.529600  
+U775                      NAND2X0         saed90nm_typ_ht 5.529600  
+U776                      NAND2X0         saed90nm_typ_ht 5.529600  
+U777                      NAND2X0         saed90nm_typ_ht 5.529600  
+U778                      NAND3X0         saed90nm_typ_ht 7.372800  
+U779                      NAND2X0         saed90nm_typ_ht 5.529600  
+U780                      NAND2X0         saed90nm_typ_ht 5.529600  
+U781                      NAND2X0         saed90nm_typ_ht 5.529600  
+U782                      NAND4X0         saed90nm_typ_ht 8.294400  
+U783                      NAND2X0         saed90nm_typ_ht 5.529600  
+U784                      NAND2X0         saed90nm_typ_ht 5.529600  
+U785                      NAND3X0         saed90nm_typ_ht 7.372800  
+U786                      NAND2X0         saed90nm_typ_ht 5.529600  
+U787                      NAND2X1         saed90nm_typ_ht 5.529600  
+U788                      NAND2X0         saed90nm_typ_ht 5.529600  
+U789                      NAND2X0         saed90nm_typ_ht 5.529600  
+U790                      NAND3X0         saed90nm_typ_ht 7.372800  
+U791                      DELLN1X2        saed90nm_typ_ht 14.745600 
+U792                      NAND2X0         saed90nm_typ_ht 5.529600  
+U793                      NAND2X1         saed90nm_typ_ht 5.529600  
+U794                      NAND2X0         saed90nm_typ_ht 5.529600  
+U795                      NAND2X0         saed90nm_typ_ht 5.529600  
+U796                      NAND2X0         saed90nm_typ_ht 5.529600  
+U797                      NAND2X0         saed90nm_typ_ht 5.529600  
+U798                      NAND2X0         saed90nm_typ_ht 5.529600  
+U799                      NAND2X0         saed90nm_typ_ht 5.529600  
+U800                      NAND2X0         saed90nm_typ_ht 5.529600  
+U801                      NAND3X0         saed90nm_typ_ht 7.372800  
+U802                      NAND2X0         saed90nm_typ_ht 5.529600  
+U803                      NOR2X0          saed90nm_typ_ht 5.529600  
+U804                      INVX0           saed90nm_typ_ht 5.529600  
+U805                      INVX0           saed90nm_typ_ht 5.529600  
+U806                      NOR4X0          saed90nm_typ_ht 9.216000  
+U807                      NAND2X0         saed90nm_typ_ht 5.529600  
+U808                      NAND2X0         saed90nm_typ_ht 5.529600  
+U809                      NOR2X0          saed90nm_typ_ht 5.529600  
+U810                      OR2X1           saed90nm_typ_ht 7.372800  
+U811                      OR2X1           saed90nm_typ_ht 7.372800  
+U812                      NAND2X0         saed90nm_typ_ht 5.529600  
+U813                      AO22X1          saed90nm_typ_ht 11.980800 
+U814                      NBUFFX2         saed90nm_typ_ht 5.529600  
+U815                      NAND2X0         saed90nm_typ_ht 5.529600  
+U816                      NAND2X0         saed90nm_typ_ht 5.529600  
+U817                      NAND2X0         saed90nm_typ_ht 5.529600  
+U818                      NAND3X0         saed90nm_typ_ht 7.372800  
+U819                      NAND2X1         saed90nm_typ_ht 5.529600  
+U820                      NAND2X0         saed90nm_typ_ht 5.529600  
+U821                      NAND2X0         saed90nm_typ_ht 5.529600  
+U822                      NAND2X0         saed90nm_typ_ht 5.529600  
+U823                      NAND3X0         saed90nm_typ_ht 7.372800  
+U824                      NAND2X0         saed90nm_typ_ht 5.529600  
+U825                      NAND2X0         saed90nm_typ_ht 5.529600  
+U826                      NAND2X0         saed90nm_typ_ht 5.529600  
+U827                      NAND3X0         saed90nm_typ_ht 7.372800  
+U828                      NAND4X0         saed90nm_typ_ht 8.294400  
+U829                      INVX0           saed90nm_typ_ht 5.529600  
+U830                      INVX0           saed90nm_typ_ht 5.529600  
+U831                      NAND2X0         saed90nm_typ_ht 5.529600  
+U832                      INVX0           saed90nm_typ_ht 5.529600  
+U833                      INVX0           saed90nm_typ_ht 5.529600  
+U834                      INVX0           saed90nm_typ_ht 5.529600  
+U835                      NBUFFX2         saed90nm_typ_ht 5.529600  
+U836                      NBUFFX2         saed90nm_typ_ht 5.529600  
+U837                      AND2X1          saed90nm_typ_ht 7.372800  
+U838                      INVX0           saed90nm_typ_ht 5.529600  
+U839                      INVX0           saed90nm_typ_ht 5.529600  
+U840                      INVX0           saed90nm_typ_ht 5.529600  
+U841                      INVX0           saed90nm_typ_ht 5.529600  
+U842                      INVX0           saed90nm_typ_ht 5.529600  
+U843                      INVX0           saed90nm_typ_ht 5.529600  
+U844                      INVX0           saed90nm_typ_ht 5.529600  
+U845                      NOR2X0          saed90nm_typ_ht 5.529600  
+U846                      NOR2X0          saed90nm_typ_ht 5.529600  
+U847                      NOR2X0          saed90nm_typ_ht 5.529600  
+U848                      AND4X1          saed90nm_typ_ht 10.137600 
+U849                      NOR2X0          saed90nm_typ_ht 5.529600  
+U850                      NBUFFX2         saed90nm_typ_ht 5.529600  
+U851                      AND2X1          saed90nm_typ_ht 7.372800  
+U852                      INVX0           saed90nm_typ_ht 5.529600  
+U853                      INVX0           saed90nm_typ_ht 5.529600  
+U854                      INVX0           saed90nm_typ_ht 5.529600  
+U855                      AND2X1          saed90nm_typ_ht 7.372800  
+U856                      NBUFFX2         saed90nm_typ_ht 5.529600  
+U857                      AND2X1          saed90nm_typ_ht 7.372800  
+U858                      INVX0           saed90nm_typ_ht 5.529600  
+U859                      INVX0           saed90nm_typ_ht 5.529600  
+U860                      NOR2X0          saed90nm_typ_ht 5.529600  
+U861                      INVX0           saed90nm_typ_ht 5.529600  
+U862                      INVX0           saed90nm_typ_ht 5.529600  
+U863                      INVX0           saed90nm_typ_ht 5.529600  
+U864                      INVX0           saed90nm_typ_ht 5.529600  
+U865                      INVX0           saed90nm_typ_ht 5.529600  
+U866                      INVX0           saed90nm_typ_ht 5.529600  
+U867                      INVX0           saed90nm_typ_ht 5.529600  
+U868                      INVX0           saed90nm_typ_ht 5.529600  
+U869                      INVX0           saed90nm_typ_ht 5.529600  
+U870                      INVX0           saed90nm_typ_ht 5.529600  
+U871                      INVX0           saed90nm_typ_ht 5.529600  
+U872                      INVX0           saed90nm_typ_ht 5.529600  
+U873                      INVX0           saed90nm_typ_ht 5.529600  
+U874                      INVX0           saed90nm_typ_ht 5.529600  
+U875                      NOR2X0          saed90nm_typ_ht 5.529600  
+U876                      NOR2X0          saed90nm_typ_ht 5.529600  
+U877                      NOR2X0          saed90nm_typ_ht 5.529600  
+U878                      NOR2X0          saed90nm_typ_ht 5.529600  
+U879                      NOR2X0          saed90nm_typ_ht 5.529600  
+U880                      NOR2X0          saed90nm_typ_ht 5.529600  
+U881                      NOR2X0          saed90nm_typ_ht 5.529600  
+U882                      NOR2X0          saed90nm_typ_ht 5.529600  
+U883                      NOR2X0          saed90nm_typ_ht 5.529600  
+U884                      NOR2X0          saed90nm_typ_ht 5.529600  
+U885                      NOR2X0          saed90nm_typ_ht 5.529600  
+U886                      NOR2X0          saed90nm_typ_ht 5.529600  
+U887                      NOR2X0          saed90nm_typ_ht 5.529600  
+U888                      NOR2X0          saed90nm_typ_ht 5.529600  
+U889                      NOR2X0          saed90nm_typ_ht 5.529600  
+U890                      NOR2X0          saed90nm_typ_ht 5.529600  
+U891                      NOR2X0          saed90nm_typ_ht 5.529600  
+U892                      NOR2X0          saed90nm_typ_ht 5.529600  
+U893                      NOR2X0          saed90nm_typ_ht 5.529600  
+U894                      NOR2X0          saed90nm_typ_ht 5.529600  
+U895                      NOR2X0          saed90nm_typ_ht 5.529600  
+U896                      NOR2X0          saed90nm_typ_ht 5.529600  
+U897                      NOR2X0          saed90nm_typ_ht 5.529600  
+U898                      NOR2X0          saed90nm_typ_ht 5.529600  
+U899                      NOR2X0          saed90nm_typ_ht 5.529600  
+U900                      NOR2X0          saed90nm_typ_ht 5.529600  
+U901                      NOR2X0          saed90nm_typ_ht 5.529600  
+U902                      NAND2X0         saed90nm_typ_ht 5.529600  
+U903                      NAND2X0         saed90nm_typ_ht 5.529600  
+U904                      AND2X1          saed90nm_typ_ht 7.372800  
+U905                      NOR2X0          saed90nm_typ_ht 5.529600  
+U906                      INVX0           saed90nm_typ_ht 5.529600  
+U907                      NAND2X0         saed90nm_typ_ht 5.529600  
+U908                      INVX0           saed90nm_typ_ht 5.529600  
+U909                      NOR4X0          saed90nm_typ_ht 9.216000  
+U910                      INVX0           saed90nm_typ_ht 5.529600  
+U911                      NOR2X0          saed90nm_typ_ht 5.529600  
+U912                      NOR2X0          saed90nm_typ_ht 5.529600  
+U913                      NOR2X0          saed90nm_typ_ht 5.529600  
+U914                      NOR2X0          saed90nm_typ_ht 5.529600  
+U915                      MUX21X1         saed90nm_typ_ht 11.059200 
+U916                      INVX0           saed90nm_typ_ht 5.529600  
+U917                      INVX0           saed90nm_typ_ht 5.529600  
+U918                      INVX0           saed90nm_typ_ht 5.529600  
+U919                      INVX0           saed90nm_typ_ht 5.529600  
+U920                      INVX0           saed90nm_typ_ht 5.529600  
+U921                      INVX0           saed90nm_typ_ht 5.529600  
+U922                      INVX0           saed90nm_typ_ht 5.529600  
+U923                      INVX0           saed90nm_typ_ht 5.529600  
+U924                      INVX0           saed90nm_typ_ht 5.529600  
+U925                      INVX0           saed90nm_typ_ht 5.529600  
+U926                      INVX0           saed90nm_typ_ht 5.529600  
+U927                      INVX0           saed90nm_typ_ht 5.529600  
+U928                      INVX0           saed90nm_typ_ht 5.529600  
+U929                      INVX0           saed90nm_typ_ht 5.529600  
+U930                      NBUFFX2         saed90nm_typ_ht 5.529600  
+U931                      AND2X1          saed90nm_typ_ht 7.372800  
+U932                      NBUFFX2         saed90nm_typ_ht 5.529600  
+U933                      INVX0           saed90nm_typ_ht 5.529600  
+U934                      NOR2X0          saed90nm_typ_ht 5.529600  
+U935                      NOR2X0          saed90nm_typ_ht 5.529600  
+U936                      NOR2X0          saed90nm_typ_ht 5.529600  
+U937                      NOR2X0          saed90nm_typ_ht 5.529600  
+U938                      NOR2X0          saed90nm_typ_ht 5.529600  
+U939                      NOR2X0          saed90nm_typ_ht 5.529600  
+U940                      NOR2X0          saed90nm_typ_ht 5.529600  
+U941                      NOR2X0          saed90nm_typ_ht 5.529600  
+U942                      NOR2X0          saed90nm_typ_ht 5.529600  
+U943                      NOR2X0          saed90nm_typ_ht 5.529600  
+U944                      NOR2X0          saed90nm_typ_ht 5.529600  
+U945                      NOR2X0          saed90nm_typ_ht 5.529600  
+U946                      NOR2X0          saed90nm_typ_ht 5.529600  
+U947                      NOR2X0          saed90nm_typ_ht 5.529600  
+U948                      NOR2X0          saed90nm_typ_ht 5.529600  
+U949                      NOR2X0          saed90nm_typ_ht 5.529600  
+U950                      NOR2X0          saed90nm_typ_ht 5.529600  
+U951                      NOR2X0          saed90nm_typ_ht 5.529600  
+U952                      NOR2X0          saed90nm_typ_ht 5.529600  
+U953                      NOR2X0          saed90nm_typ_ht 5.529600  
+U954                      NOR2X0          saed90nm_typ_ht 5.529600  
+U955                      NOR2X0          saed90nm_typ_ht 5.529600  
+U956                      NOR2X0          saed90nm_typ_ht 5.529600  
+U957                      NOR2X0          saed90nm_typ_ht 5.529600  
+U958                      NOR2X0          saed90nm_typ_ht 5.529600  
+U959                      NOR2X0          saed90nm_typ_ht 5.529600  
+U960                      NOR2X0          saed90nm_typ_ht 5.529600  
+U961                      NOR2X0          saed90nm_typ_ht 5.529600  
+U962                      NOR2X0          saed90nm_typ_ht 5.529600  
+U963                      NOR2X0          saed90nm_typ_ht 5.529600  
+U964                      NOR2X0          saed90nm_typ_ht 5.529600  
+U965                      NOR2X0          saed90nm_typ_ht 5.529600  
+U966                      NOR2X0          saed90nm_typ_ht 5.529600  
+U967                      NOR2X0          saed90nm_typ_ht 5.529600  
+U968                      NOR2X0          saed90nm_typ_ht 5.529600  
+U969                      NOR2X0          saed90nm_typ_ht 5.529600  
+U970                      NOR2X0          saed90nm_typ_ht 5.529600  
+U971                      NOR2X0          saed90nm_typ_ht 5.529600  
+U972                      NOR2X0          saed90nm_typ_ht 5.529600  
+U973                      NOR2X0          saed90nm_typ_ht 5.529600  
+U974                      NOR2X0          saed90nm_typ_ht 5.529600  
+U975                      NOR2X0          saed90nm_typ_ht 5.529600  
+U976                      NOR2X0          saed90nm_typ_ht 5.529600  
+U977                      NOR2X0          saed90nm_typ_ht 5.529600  
+U978                      NOR2X0          saed90nm_typ_ht 5.529600  
+U979                      NOR2X0          saed90nm_typ_ht 5.529600  
+U980                      NOR2X0          saed90nm_typ_ht 5.529600  
+U981                      NOR2X0          saed90nm_typ_ht 5.529600  
+U982                      NOR2X0          saed90nm_typ_ht 5.529600  
+U983                      NOR2X0          saed90nm_typ_ht 5.529600  
+U984                      NOR2X0          saed90nm_typ_ht 5.529600  
+U985                      NOR2X0          saed90nm_typ_ht 5.529600  
+U986                      NOR2X0          saed90nm_typ_ht 5.529600  
+U987                      NOR2X0          saed90nm_typ_ht 5.529600  
+U988                      NOR2X0          saed90nm_typ_ht 5.529600  
+U989                      NOR2X0          saed90nm_typ_ht 5.529600  
+U990                      NOR2X0          saed90nm_typ_ht 5.529600  
+U991                      NOR2X0          saed90nm_typ_ht 5.529600  
+U992                      NOR2X0          saed90nm_typ_ht 5.529600  
+U993                      NOR2X0          saed90nm_typ_ht 5.529600  
+U994                      NOR2X0          saed90nm_typ_ht 5.529600  
+U995                      NOR2X0          saed90nm_typ_ht 5.529600  
+U996                      NOR2X0          saed90nm_typ_ht 5.529600  
+U997                      NOR2X0          saed90nm_typ_ht 5.529600  
+U998                      NOR2X0          saed90nm_typ_ht 5.529600  
+U999                      INVX0           saed90nm_typ_ht 5.529600  
+U1000                     INVX0           saed90nm_typ_ht 5.529600  
+U1001                     NOR4X0          saed90nm_typ_ht 9.216000  
+U1002                     AND4X1          saed90nm_typ_ht 10.137600 
+U1003                     INVX0           saed90nm_typ_ht 5.529600  
+U1004                     NAND2X0         saed90nm_typ_ht 5.529600  
+U1005                     NOR2X0          saed90nm_typ_ht 5.529600  
+U1006                     NOR2X0          saed90nm_typ_ht 5.529600  
+U1007                     NOR2X0          saed90nm_typ_ht 5.529600  
+U1008                     NOR2X0          saed90nm_typ_ht 5.529600  
+U1009                     NOR2X0          saed90nm_typ_ht 5.529600  
+U1010                     NOR2X0          saed90nm_typ_ht 5.529600  
+U1011                     NOR2X0          saed90nm_typ_ht 5.529600  
+U1012                     NOR2X0          saed90nm_typ_ht 5.529600  
+U1013                     NOR2X0          saed90nm_typ_ht 5.529600  
+U1014                     NBUFFX2         saed90nm_typ_ht 5.529600  
+U1015                     NBUFFX2         saed90nm_typ_ht 5.529600  
+U1016                     NBUFFX2         saed90nm_typ_ht 5.529600  
+U1017                     NBUFFX2         saed90nm_typ_ht 5.529600  
+U1018                     NBUFFX2         saed90nm_typ_ht 5.529600  
+U1019                     NBUFFX2         saed90nm_typ_ht 5.529600  
+U1020                     NBUFFX2         saed90nm_typ_ht 5.529600  
+U1021                     NBUFFX2         saed90nm_typ_ht 5.529600  
+U1022                     NBUFFX2         saed90nm_typ_ht 5.529600  
+U1023                     NBUFFX2         saed90nm_typ_ht 5.529600  
+U1024                     NBUFFX2         saed90nm_typ_ht 5.529600  
+U1025                     NBUFFX2         saed90nm_typ_ht 5.529600  
+U1026                     NBUFFX2         saed90nm_typ_ht 5.529600  
+U1027                     NBUFFX2         saed90nm_typ_ht 5.529600  
+U1028                     NBUFFX2         saed90nm_typ_ht 5.529600  
+U1029                     INVX0           saed90nm_typ_ht 5.529600  
+U1030                     INVX0           saed90nm_typ_ht 5.529600  
+U1031                     INVX0           saed90nm_typ_ht 5.529600  
+U1032                     INVX0           saed90nm_typ_ht 5.529600  
+U1033                     INVX0           saed90nm_typ_ht 5.529600  
+U1034                     INVX0           saed90nm_typ_ht 5.529600  
+U1035                     INVX0           saed90nm_typ_ht 5.529600  
+U1036                     INVX0           saed90nm_typ_ht 5.529600  
+U1037                     INVX0           saed90nm_typ_ht 5.529600  
+U1038                     INVX0           saed90nm_typ_ht 5.529600  
+U1039                     INVX0           saed90nm_typ_ht 5.529600  
+U1040                     INVX0           saed90nm_typ_ht 5.529600  
+U1041                     INVX0           saed90nm_typ_ht 5.529600  
+U1042                     INVX0           saed90nm_typ_ht 5.529600  
+U1043                     INVX0           saed90nm_typ_ht 5.529600  
+U1044                     NOR3X0          saed90nm_typ_ht 8.294400  
+U1045                     NAND4X0         saed90nm_typ_ht 8.294400  
+U1046                     NAND4X0         saed90nm_typ_ht 8.294400  
+U1047                     NAND4X0         saed90nm_typ_ht 8.294400  
+U1048                     AND2X1          saed90nm_typ_ht 7.372800  
+U1049                     AND2X1          saed90nm_typ_ht 7.372800  
+U1050                     AND2X1          saed90nm_typ_ht 7.372800  
+U1051                     AND2X1          saed90nm_typ_ht 7.372800  
+U1052                     AND2X1          saed90nm_typ_ht 7.372800  
+U1053                     AND2X1          saed90nm_typ_ht 7.372800  
+U1054                     AND2X1          saed90nm_typ_ht 7.372800  
+U1055                     AND2X1          saed90nm_typ_ht 7.372800  
+U1056                     AND2X1          saed90nm_typ_ht 7.372800  
+U1057                     AND2X1          saed90nm_typ_ht 7.372800  
+U1058                     AND2X1          saed90nm_typ_ht 7.372800  
+U1059                     AND2X1          saed90nm_typ_ht 7.372800  
+U1060                     AND2X1          saed90nm_typ_ht 7.372800  
+U1061                     AND2X1          saed90nm_typ_ht 7.372800  
+U1062                     AND2X1          saed90nm_typ_ht 7.372800  
+U1063                     AND2X1          saed90nm_typ_ht 7.372800  
+U1064                     AND2X1          saed90nm_typ_ht 7.372800  
+U1065                     AND2X1          saed90nm_typ_ht 7.372800  
+U1066                     AND2X1          saed90nm_typ_ht 7.372800  
+U1067                     AND2X1          saed90nm_typ_ht 7.372800  
+U1068                     AND2X1          saed90nm_typ_ht 7.372800  
+U1069                     AND2X1          saed90nm_typ_ht 7.372800  
+U1070                     AND2X1          saed90nm_typ_ht 7.372800  
+U1071                     AND2X1          saed90nm_typ_ht 7.372800  
+U1072                     AND2X1          saed90nm_typ_ht 7.372800  
+U1073                     AND2X1          saed90nm_typ_ht 7.372800  
+U1074                     AND2X1          saed90nm_typ_ht 7.372800  
+U1075                     AND2X1          saed90nm_typ_ht 7.372800  
+U1076                     AND2X1          saed90nm_typ_ht 7.372800  
+U1077                     AND2X1          saed90nm_typ_ht 7.372800  
+U1078                     AND2X1          saed90nm_typ_ht 7.372800  
+U1079                     AND2X1          saed90nm_typ_ht 7.372800  
+U1080                     AND2X1          saed90nm_typ_ht 7.372800  
+U1081                     AND2X1          saed90nm_typ_ht 7.372800  
+U1082                     AND2X1          saed90nm_typ_ht 7.372800  
+U1083                     AND2X1          saed90nm_typ_ht 7.372800  
+U1084                     AND2X1          saed90nm_typ_ht 7.372800  
+U1085                     AND2X1          saed90nm_typ_ht 7.372800  
+U1086                     AND2X1          saed90nm_typ_ht 7.372800  
+U1087                     AND2X1          saed90nm_typ_ht 7.372800  
+U1088                     AND2X1          saed90nm_typ_ht 7.372800  
+U1089                     AND2X1          saed90nm_typ_ht 7.372800  
+U1090                     AND2X1          saed90nm_typ_ht 7.372800  
+U1091                     AND2X1          saed90nm_typ_ht 7.372800  
+U1092                     AND2X1          saed90nm_typ_ht 7.372800  
+U1093                     AND2X1          saed90nm_typ_ht 7.372800  
+U1094                     AND2X1          saed90nm_typ_ht 7.372800  
+U1095                     AND2X1          saed90nm_typ_ht 7.372800  
+U1096                     AND2X1          saed90nm_typ_ht 7.372800  
+U1097                     AND2X1          saed90nm_typ_ht 7.372800  
+U1098                     AND2X1          saed90nm_typ_ht 7.372800  
+U1099                     AND2X1          saed90nm_typ_ht 7.372800  
+U1100                     AND2X1          saed90nm_typ_ht 7.372800  
+U1101                     AND2X1          saed90nm_typ_ht 7.372800  
+U1102                     AND2X1          saed90nm_typ_ht 7.372800  
+U1103                     AND2X1          saed90nm_typ_ht 7.372800  
+U1104                     AND2X1          saed90nm_typ_ht 7.372800  
+U1105                     AND2X1          saed90nm_typ_ht 7.372800  
+U1106                     AND2X1          saed90nm_typ_ht 7.372800  
+U1107                     AND2X1          saed90nm_typ_ht 7.372800  
+U1108                     AND2X1          saed90nm_typ_ht 7.372800  
+U1109                     AND2X1          saed90nm_typ_ht 7.372800  
+U1110                     AND2X1          saed90nm_typ_ht 7.372800  
+U1111                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1112                     NOR3X0          saed90nm_typ_ht 8.294400  
+U1113                     NAND4X0         saed90nm_typ_ht 8.294400  
+U1114                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1115                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1116                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1117                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1118                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1119                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1120                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1121                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1122                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1123                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1124                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1125                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1126                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1127                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1128                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1129                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1130                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1131                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1132                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1133                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1134                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1135                     AO22X1          saed90nm_typ_ht 11.980800 
+U1136                     AO222X1         saed90nm_typ_ht 14.745600 
+U1137                     AO222X1         saed90nm_typ_ht 14.745600 
+U1138                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1139                     AO222X1         saed90nm_typ_ht 14.745600 
+U1140                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1141                     AO222X1         saed90nm_typ_ht 14.745600 
+U1142                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1143                     AO222X1         saed90nm_typ_ht 14.745600 
+U1144                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1145                     AO222X1         saed90nm_typ_ht 14.745600 
+U1146                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1147                     AO222X1         saed90nm_typ_ht 14.745600 
+U1148                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1149                     AO222X1         saed90nm_typ_ht 14.745600 
+U1150                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1151                     AO222X1         saed90nm_typ_ht 14.745600 
+U1152                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1153                     AO222X1         saed90nm_typ_ht 14.745600 
+U1154                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1155                     AO222X1         saed90nm_typ_ht 14.745600 
+U1156                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1157                     AO222X1         saed90nm_typ_ht 14.745600 
+U1158                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1159                     AO222X1         saed90nm_typ_ht 14.745600 
+U1160                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1161                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1162                     AO222X1         saed90nm_typ_ht 14.745600 
+U1163                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1164                     AO222X1         saed90nm_typ_ht 14.745600 
+U1165                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1166                     AO222X1         saed90nm_typ_ht 14.745600 
+U1167                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1168                     AO222X1         saed90nm_typ_ht 14.745600 
+U1169                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1170                     AO222X1         saed90nm_typ_ht 14.745600 
+U1171                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1172                     AO222X1         saed90nm_typ_ht 14.745600 
+U1173                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1174                     AO222X1         saed90nm_typ_ht 14.745600 
+U1175                     AO222X1         saed90nm_typ_ht 14.745600 
+U1176                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1177                     AO222X1         saed90nm_typ_ht 14.745600 
+U1178                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1179                     AO222X1         saed90nm_typ_ht 14.745600 
+U1180                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1181                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1182                     AO222X1         saed90nm_typ_ht 14.745600 
+U1183                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1184                     AO222X1         saed90nm_typ_ht 14.745600 
+U1185                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1186                     AO222X1         saed90nm_typ_ht 14.745600 
+U1187                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1188                     AO222X1         saed90nm_typ_ht 14.745600 
+U1189                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1190                     AO222X1         saed90nm_typ_ht 14.745600 
+U1191                     MUX21X1         saed90nm_typ_ht 11.059200 
+U1192                     AND2X1          saed90nm_typ_ht 7.372800  
+U1193                     AND2X1          saed90nm_typ_ht 7.372800  
+U1194                     AND2X1          saed90nm_typ_ht 7.372800  
+U1195                     AND2X1          saed90nm_typ_ht 7.372800  
+U1196                     AND2X1          saed90nm_typ_ht 7.372800  
+U1197                     AND2X1          saed90nm_typ_ht 7.372800  
+U1198                     AND2X1          saed90nm_typ_ht 7.372800  
+U1199                     AND2X1          saed90nm_typ_ht 7.372800  
+U1200                     AND2X1          saed90nm_typ_ht 7.372800  
+U1201                     AND2X1          saed90nm_typ_ht 7.372800  
+U1202                     AND2X1          saed90nm_typ_ht 7.372800  
+U1203                     AND2X1          saed90nm_typ_ht 7.372800  
+U1204                     AND2X1          saed90nm_typ_ht 7.372800  
+U1205                     AND2X1          saed90nm_typ_ht 7.372800  
+U1206                     AND2X1          saed90nm_typ_ht 7.372800  
+U1207                     AND2X1          saed90nm_typ_ht 7.372800  
+U1208                     AND2X1          saed90nm_typ_ht 7.372800  
+U1209                     AND2X1          saed90nm_typ_ht 7.372800  
+U1210                     AND2X1          saed90nm_typ_ht 7.372800  
+U1211                     AND2X1          saed90nm_typ_ht 7.372800  
+U1212                     AND2X1          saed90nm_typ_ht 7.372800  
+U1213                     AND2X1          saed90nm_typ_ht 7.372800  
+U1214                     AND2X1          saed90nm_typ_ht 7.372800  
+U1215                     AND2X1          saed90nm_typ_ht 7.372800  
+U1216                     AND2X1          saed90nm_typ_ht 7.372800  
+U1217                     AND2X1          saed90nm_typ_ht 7.372800  
+U1218                     AND2X1          saed90nm_typ_ht 7.372800  
+U1219                     AND2X1          saed90nm_typ_ht 7.372800  
+U1220                     AND2X1          saed90nm_typ_ht 7.372800  
+U1221                     AND2X1          saed90nm_typ_ht 7.372800  
+U1222                     AND2X1          saed90nm_typ_ht 7.372800  
+U1223                     AO222X1         saed90nm_typ_ht 14.745600 
+U1224                     NAND2X1         saed90nm_typ_ht 5.529600  
+U1225                     NAND4X0         saed90nm_typ_ht 8.294400  
+U1226                     AO222X1         saed90nm_typ_ht 14.745600 
+U1227                     AO222X1         saed90nm_typ_ht 14.745600 
+U1228                     AO222X1         saed90nm_typ_ht 14.745600 
+U1229                     AO222X1         saed90nm_typ_ht 14.745600 
+U1230                     AO222X1         saed90nm_typ_ht 14.745600 
+U1231                     AO222X1         saed90nm_typ_ht 14.745600 
+U1232                     AO222X1         saed90nm_typ_ht 14.745600 
+U1233                     AO222X1         saed90nm_typ_ht 14.745600 
+U1234                     AO222X1         saed90nm_typ_ht 14.745600 
+U1235                     AO222X1         saed90nm_typ_ht 14.745600 
+U1236                     AO222X1         saed90nm_typ_ht 14.745600 
+U1237                     AO222X1         saed90nm_typ_ht 14.745600 
+U1238                     AO222X1         saed90nm_typ_ht 14.745600 
+U1239                     AO222X1         saed90nm_typ_ht 14.745600 
+U1240                     AO222X1         saed90nm_typ_ht 14.745600 
+U1241                     AO222X1         saed90nm_typ_ht 14.745600 
+U1242                     AO222X1         saed90nm_typ_ht 14.745600 
+U1243                     AO222X1         saed90nm_typ_ht 14.745600 
+U1244                     AO222X1         saed90nm_typ_ht 14.745600 
+U1245                     AO222X1         saed90nm_typ_ht 14.745600 
+U1246                     AO222X1         saed90nm_typ_ht 14.745600 
+U1247                     AO222X1         saed90nm_typ_ht 14.745600 
+U1248                     AO222X1         saed90nm_typ_ht 14.745600 
+U1249                     AO222X1         saed90nm_typ_ht 14.745600 
+U1250                     AO222X1         saed90nm_typ_ht 14.745600 
+U1251                     AO222X1         saed90nm_typ_ht 14.745600 
+U1252                     AO222X1         saed90nm_typ_ht 14.745600 
+U1253                     AO222X1         saed90nm_typ_ht 14.745600 
+U1254                     AO222X1         saed90nm_typ_ht 14.745600 
+U1255                     AO222X1         saed90nm_typ_ht 14.745600 
+U1256                     AO222X1         saed90nm_typ_ht 14.745600 
+U1257                     AO222X1         saed90nm_typ_ht 14.745600 
+U1258                     AO222X1         saed90nm_typ_ht 14.745600 
+U1259                     AO222X1         saed90nm_typ_ht 14.745600 
+U1260                     AO222X1         saed90nm_typ_ht 14.745600 
+U1261                     AO222X1         saed90nm_typ_ht 14.745600 
+U1262                     AO222X1         saed90nm_typ_ht 14.745600 
+U1263                     AO222X1         saed90nm_typ_ht 14.745600 
+U1264                     AO222X1         saed90nm_typ_ht 14.745600 
+U1265                     AO222X1         saed90nm_typ_ht 14.745600 
+U1266                     AO222X1         saed90nm_typ_ht 14.745600 
+U1267                     AO222X1         saed90nm_typ_ht 14.745600 
+U1268                     AO222X1         saed90nm_typ_ht 14.745600 
+U1269                     AO222X1         saed90nm_typ_ht 14.745600 
+U1270                     AO222X1         saed90nm_typ_ht 14.745600 
+U1271                     AO222X1         saed90nm_typ_ht 14.745600 
+U1272                     AO222X1         saed90nm_typ_ht 14.745600 
+U1273                     AO222X1         saed90nm_typ_ht 14.745600 
+U1274                     AO222X1         saed90nm_typ_ht 14.745600 
+U1275                     AO22X1          saed90nm_typ_ht 11.980800 
+U1276                     NAND2X1         saed90nm_typ_ht 5.529600  
+U1277                     XOR2X1          saed90nm_typ_ht 13.824000 
+U1278                     AO222X1         saed90nm_typ_ht 14.745600 
+U1279                     AO222X1         saed90nm_typ_ht 14.745600 
+U1280                     AO222X1         saed90nm_typ_ht 14.745600 
+U1281                     AO222X1         saed90nm_typ_ht 14.745600 
+U1282                     AO222X1         saed90nm_typ_ht 14.745600 
+U1283                     AO222X1         saed90nm_typ_ht 14.745600 
+U1284                     AO222X1         saed90nm_typ_ht 14.745600 
+U1285                     AO222X1         saed90nm_typ_ht 14.745600 
+U1286                     AO222X1         saed90nm_typ_ht 14.745600 
+U1287                     AO222X1         saed90nm_typ_ht 14.745600 
+U1288                     AO222X1         saed90nm_typ_ht 14.745600 
+U1289                     AO222X1         saed90nm_typ_ht 14.745600 
+U1290                     AO222X1         saed90nm_typ_ht 14.745600 
+U1291                     AO222X1         saed90nm_typ_ht 14.745600 
+U1292                     AO222X1         saed90nm_typ_ht 14.745600 
+U1293                     AO222X1         saed90nm_typ_ht 14.745600 
+U1294                     AO222X1         saed90nm_typ_ht 14.745600 
+U1295                     AO222X1         saed90nm_typ_ht 14.745600 
+U1296                     AO222X1         saed90nm_typ_ht 14.745600 
+U1297                     AO222X1         saed90nm_typ_ht 14.745600 
+U1298                     AO222X1         saed90nm_typ_ht 14.745600 
+U1299                     AO222X1         saed90nm_typ_ht 14.745600 
+U1300                     AO222X1         saed90nm_typ_ht 14.745600 
+U1301                     AO222X1         saed90nm_typ_ht 14.745600 
+U1302                     AO222X1         saed90nm_typ_ht 14.745600 
+U1303                     AO222X1         saed90nm_typ_ht 14.745600 
+U1304                     AO222X1         saed90nm_typ_ht 14.745600 
+U1305                     AO222X1         saed90nm_typ_ht 14.745600 
+U1306                     AO222X1         saed90nm_typ_ht 14.745600 
+U1307                     AO222X1         saed90nm_typ_ht 14.745600 
+U1308                     AO222X1         saed90nm_typ_ht 14.745600 
+U1309                     AO222X1         saed90nm_typ_ht 14.745600 
+U1310                     AO222X1         saed90nm_typ_ht 14.745600 
+U1311                     AO222X1         saed90nm_typ_ht 14.745600 
+U1312                     AO222X1         saed90nm_typ_ht 14.745600 
+U1313                     AO222X1         saed90nm_typ_ht 14.745600 
+U1314                     AO222X1         saed90nm_typ_ht 14.745600 
+U1315                     AO222X1         saed90nm_typ_ht 14.745600 
+U1316                     AO222X1         saed90nm_typ_ht 14.745600 
+U1317                     AO222X1         saed90nm_typ_ht 14.745600 
+U1318                     AO222X1         saed90nm_typ_ht 14.745600 
+U1319                     AO222X1         saed90nm_typ_ht 14.745600 
+U1320                     AO222X1         saed90nm_typ_ht 14.745600 
+U1321                     AO222X1         saed90nm_typ_ht 14.745600 
+U1322                     AO222X1         saed90nm_typ_ht 14.745600 
+U1323                     AO222X1         saed90nm_typ_ht 14.745600 
+U1324                     AO222X1         saed90nm_typ_ht 14.745600 
+U1325                     AO222X1         saed90nm_typ_ht 14.745600 
+U1326                     AO222X1         saed90nm_typ_ht 14.745600 
+U1327                     AO222X1         saed90nm_typ_ht 14.745600 
+U1328                     AO222X1         saed90nm_typ_ht 14.745600 
+U1329                     AO222X1         saed90nm_typ_ht 14.745600 
+U1330                     AO222X1         saed90nm_typ_ht 14.745600 
+U1331                     AO222X1         saed90nm_typ_ht 14.745600 
+U1332                     AO222X1         saed90nm_typ_ht 14.745600 
+U1333                     AO22X1          saed90nm_typ_ht 11.980800 
+add_51_S2_aco             SeqMult_DW01_add_3              3007.180831
+                                                                    BO, h
+add_60                    SeqMult_DW01_inc_1              784.281620
+                                                                    BO, h
+counter_reg[0]            DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[1]            DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[2]            DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[3]            DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[4]            DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[5]            DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[6]            DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[7]            DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[8]            DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[9]            DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[10]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[11]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[12]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[13]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[14]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[15]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[16]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[17]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[18]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[19]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[20]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[21]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[22]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[23]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[24]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[25]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[26]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[27]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[28]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[29]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[30]           DFFARX1         saed90nm_typ_ht 32.256001 n
+counter_reg[31]           DFFARX1         saed90nm_typ_ht 32.256001 n
+mult_add_51_S2_aco        SeqMult_DW02_mult_0             263.577597
+                                                                    BO, h
+multiplicand_reg[0]       DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[1]       DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[2]       DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[3]       DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[4]       DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[5]       DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[6]       DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[7]       DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[8]       DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[9]       DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[10]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[11]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[12]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[13]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[14]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[15]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[16]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[17]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[18]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[19]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[20]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[21]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[22]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[23]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[24]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[25]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[26]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[27]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[28]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[29]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[30]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplicand_reg[31]      DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[0]         DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[1]         DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[2]         DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[3]         DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[4]         DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[5]         DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[6]         DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[7]         DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[8]         DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[9]         DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[10]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[11]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[12]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[13]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[14]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[15]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[16]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[17]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[18]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[19]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[20]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[21]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[22]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[23]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[24]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[25]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[26]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[27]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[28]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[29]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[30]        DFFX1           saed90nm_typ_ht 24.883200 n
+multiplier_reg[31]        DFFX1           saed90nm_typ_ht 24.883200 n
+sub_43_S2                 SeqMult_DW01_sub_9              1179.648018
+                                                                    BO, h
+sub_46_S2                 SeqMult_DW01_sub_4              897.638413
+                                                                    BO, h
+sub_59_S2                 SeqMult_DW01_sub_8              2258.841634
+                                                                    BO, h
+--------------------------------------------------------------------------------
+Total 1018 cells                                          22449.254453
+1
