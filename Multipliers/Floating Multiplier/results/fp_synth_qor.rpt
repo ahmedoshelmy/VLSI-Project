@@ -1,0 +1,68 @@
+ 
+****************************************
+Report : qor
+Design : BoothMultiplier
+Version: G-2012.06-SP2
+Date   : Sat Dec 24 21:05:29 2016
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:              14.00
+  Critical Path Length:          2.23
+  Critical Path Slack:           0.00
+  Critical Path Clk Period:      2.40
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          2
+  Hierarchical Port Count:        196
+  Leaf Cell Count:               1219
+  Buf/Inv Cell Count:             238
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:      1052
+  Sequential Cell Count:          167
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:     7699.968063
+  Noncombinational Area:  5146.214520
+  Buf/Inv Area:           1329.868834
+  Net Area:                627.871480
+  -----------------------------------
+  Cell Area:             12846.182583
+  Design Area:           13474.054063
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          1316
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: localhost.localdomain
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.14
+  Logic Optimization:                  1.50
+  Mapping Optimization:                2.56
+  -----------------------------------------
+  Overall Compile Time:                4.71
+  Overall Compile Wall Clock Time:     4.94
+
+1

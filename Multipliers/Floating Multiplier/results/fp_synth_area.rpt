@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : BoothMultiplier
+Version: G-2012.06-SP2
+Date   : Sat Dec 24 21:05:29 2016
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/ahesham/Desktop/FP_MULT/ref/models/saed90nm_typ_ht.db)
+
+Number of ports:                          132
+Number of nets:                           595
+Number of cells:                          436
+Number of combinational cells:            267
+Number of sequential cells:               167
+Number of macros:                           0
+Number of buf/inv:                         83
+Number of references:                      24
+
+Combinational area:       7699.968063
+Buf/Inv area:             1329.868834
+Noncombinational area:    5146.214520
+Net Interconnect area:     627.871480  
+
+Total cell area:          12846.182583
+Total area:               13474.054063
+1
