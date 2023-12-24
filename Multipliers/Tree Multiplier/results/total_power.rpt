@@ -1,4 +1,4 @@
-Loading db file '/home/ahesham/Desktop/MultiplierTree/ref/models/saed90nm_typ_ht.db'
+Loading db file '/home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db'
 Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
 Warning: Design has unannotated primary inputs. (PWR-414)
 Warning: Design has unannotated sequential cell outputs. (PWR-415)
@@ -8,102 +8,38 @@ Report : power
         -analysis_effort low
 Design : WallaceTreeMultiplier
 Version: G-2012.06-SP2
-Date   : Sat Dec 24 13:06:54 2016
+Date   : Sat Dec 24 19:04:05 2016
 ****************************************
 
 
 Library(s) Used:
 
-    saed90nm_typ_ht (File: /home/ahesham/Desktop/MultiplierTree/ref/models/saed90nm_typ_ht.db)
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
 
 
-Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
-Wire Load Model Mode: enclosed
+Operating Conditions: worst_low   Library: NangateOpenCellLibrary_ss0p95vn40c
+Wire Load Model Mode: top
 
 Design        Wire Load Model            Library
 ------------------------------------------------
-WallaceTreeMultiplier  280000            saed90nm_typ_ht
-FullAdder_0            8000              saed90nm_typ_ht
-FullAdder_1            8000              saed90nm_typ_ht
-FullAdder_2            8000              saed90nm_typ_ht
-FullAdder_3            8000              saed90nm_typ_ht
-FullAdder_4            8000              saed90nm_typ_ht
-FullAdder_5            8000              saed90nm_typ_ht
-FullAdder_6            8000              saed90nm_typ_ht
-FullAdder_7            8000              saed90nm_typ_ht
-FullAdder_8            8000              saed90nm_typ_ht
-FullAdder_9            8000              saed90nm_typ_ht
-FullAdder_10           8000              saed90nm_typ_ht
-FullAdder_11           8000              saed90nm_typ_ht
-FullAdder_12           8000              saed90nm_typ_ht
-FullAdder_13           8000              saed90nm_typ_ht
-FullAdder_14           8000              saed90nm_typ_ht
-FullAdder_15           8000              saed90nm_typ_ht
-FullAdder_16           8000              saed90nm_typ_ht
-FullAdder_17           8000              saed90nm_typ_ht
-FullAdder_18           8000              saed90nm_typ_ht
-FullAdder_19           8000              saed90nm_typ_ht
-FullAdder_20           8000              saed90nm_typ_ht
-FullAdder_21           8000              saed90nm_typ_ht
-FullAdder_22           8000              saed90nm_typ_ht
-FullAdder_23           8000              saed90nm_typ_ht
-FullAdder_24           8000              saed90nm_typ_ht
-FullAdder_25           8000              saed90nm_typ_ht
-FullAdder_26           8000              saed90nm_typ_ht
-FullAdder_27           8000              saed90nm_typ_ht
-FullAdder_28           8000              saed90nm_typ_ht
-FullAdder_29           8000              saed90nm_typ_ht
-FullAdder_30           8000              saed90nm_typ_ht
-FullAdder_31           8000              saed90nm_typ_ht
-FullAdder_32           8000              saed90nm_typ_ht
-FullAdder_33           8000              saed90nm_typ_ht
-FullAdder_34           8000              saed90nm_typ_ht
-FullAdder_35           8000              saed90nm_typ_ht
-FullAdder_36           8000              saed90nm_typ_ht
-FullAdder_37           8000              saed90nm_typ_ht
-FullAdder_38           8000              saed90nm_typ_ht
-FullAdder_39           8000              saed90nm_typ_ht
-FullAdder_40           8000              saed90nm_typ_ht
-FullAdder_41           8000              saed90nm_typ_ht
-FullAdder_42           8000              saed90nm_typ_ht
-FullAdder_43           8000              saed90nm_typ_ht
-FullAdder_44           8000              saed90nm_typ_ht
-FullAdder_45           8000              saed90nm_typ_ht
-FullAdder_46           8000              saed90nm_typ_ht
-FullAdder_47           8000              saed90nm_typ_ht
-FullAdder_48           8000              saed90nm_typ_ht
-FullAdder_49           8000              saed90nm_typ_ht
-FullAdder_50           8000              saed90nm_typ_ht
-FullAdder_51           8000              saed90nm_typ_ht
-FullAdder_52           8000              saed90nm_typ_ht
-FullAdder_53           8000              saed90nm_typ_ht
-FullAdder_54           8000              saed90nm_typ_ht
-FullAdder_55           8000              saed90nm_typ_ht
-FullAdder_56           8000              saed90nm_typ_ht
-FullAdder_57           8000              saed90nm_typ_ht
-FullAdder_58           8000              saed90nm_typ_ht
-FullAdder_59           8000              saed90nm_typ_ht
-FullAdder_60           8000              saed90nm_typ_ht
-FullAdder_61           8000              saed90nm_typ_ht
-WallaceTreeMultiplier_DW01_add_0
-                       8000              saed90nm_typ_ht
+WallaceTreeMultiplier  5K_hvratio_1_1    NangateOpenCellLibrary_ss0p95vn40c
 
 
-Global Operating Voltage = 1.2  
+Global Operating Voltage = 0.95 
 Power-specific unit information :
     Voltage Units = 1V
     Capacitance Units = 1.000000ff
     Time Units = 1ns
     Dynamic Power Units = 1uW    (derived from V,C,T units)
-    Leakage Power Units = 1pW
+    Leakage Power Units = 1nW
 
 
-  Cell Internal Power  = 919.0268 uW   (86%)
-  Net Switching Power  = 153.5907 uW   (14%)
+  Cell Internal Power  = 595.2822 uW   (56%)
+  Net Switching Power  = 471.5179 uW   (44%)
                          ---------
-Total Dynamic Power    =   1.0726 mW  (100%)
+Total Dynamic Power    =   1.0668 mW  (100%)
 
-Cell Leakage Power     =   2.7323 mW
+Cell Leakage Power     =  85.1599 uW
 
 
                  Internal         Switching           Leakage            Total
@@ -113,9 +49,9 @@ io_pad             0.0000            0.0000            0.0000            0.0000 
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
-register           3.8356            5.1465        5.4246e+07           63.2285  (   1.66%)
+register          93.5610           13.9094        2.1365e+03          109.6069  (   9.51%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational    915.1910          148.4444        2.6780e+09        3.7416e+03  (  98.34%)
+combinational    501.7218          457.6103        8.3026e+04        1.0424e+03  (  90.49%)
 --------------------------------------------------------------------------------------------------
-Total            919.0266 uW       153.5908 uW     2.7322e+09 pW     3.8048e+03 uW
+Total            595.2828 uW       471.5197 uW     8.5163e+04 nW     1.1520e+03 uW
 1
